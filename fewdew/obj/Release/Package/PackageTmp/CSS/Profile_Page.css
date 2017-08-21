@@ -1,0 +1,92 @@
+﻿div.profile-left{ width:260px; height:100%;  float:left;  display:inline-block}
+div.profile-right{ width:600px; float:left;  display:inline-block}
+span{display:inline-block}
+
+div.edit-button a{ margin-left:480px; font-weight:normal; color:#4FA3B9; font-size:11px; }
+div.edit-button_practice{margin-left:320px; font-weight:bold;  z-index:3;}
+div.edit-button_practice a{font-weight:normal; color:#4FA3B9;font-size:11px;}
+
+div.profile-image{ float:left}
+img.profile-image{  width:200px;  padding:4px;  border:1px solid #A0A0A0; }
+
+/*
+div.right ul li{margin-left:100px;}
+div.right ul li div{ width:70px; height:70px; border:1px solid black; display:inline; float:left; margin:5px; background-image:url(..\images\profile\1_mini);}
+*/
+
+
+
+
+div.friend{width:45px; text-align:center; float:left; margin:3px; vertical-align:bottom; }
+div.friend img{width:40px; text-align:center;  padding:2px; border:1px solid #CCC;}
+div.friend ul li{ text-align:center;}
+div.friend ul li a{ font-size:10px;}
+
+
+.message-box{ width:300px; height:20px;}
+
+ul li span.AttributeLabel2{	vertical-align:top;	width:80px;	text-align:left;	float:left;	display:inline-block;	font-weight:bold;}
+/*
+div.user-right-menu	{ float:left; display:none; }
+
+div.user-right-menu ul li  a.Deselected {color:White;background-image:url(../Images/Site/blacktop.gif); background-repeat:repeat-x; font-weight:bold; height:25px;text-align:center; background-color:black; color:White; width:200px; display:inline-block}
+div.user-right-menu ul li  a.Selected {color:White;background-image:url(Images/site/blackRepeat.gif); background-repeat:repeat-x; font-weight:bold; height:25px;text-align:center; background-color:#808889;  width:200px; display:inline-block}
+*/
+
+
+/* After placing blog in tab*/
+
+/*ul.blog li span{ width:400px; } */
+
+
+	
+/*
+table.YourGridView{ width:600px; border:0px solid black}
+.YourGridView ,
+.YourGridView tr,
+.YourGridView td,
+.YourGridView span,
+.YourGridView div,
+.YourGridView a,
+.YourGridView img
+{border:0px none white;}
+table.YourGridView tr td{ padding:5px; vertical-align:top; border-bottom:1px solid #a0a0a0}
+.YourGridView td{ display:inline;}
+.YourGridView tr{ display:inline;}
+
+
+div.blog-transparent{ z-index:3; float:left;position:absolute;top:100;left:200px; background-color:#393D3D; border:10px solid black }
+div.blog-transparent a{ color:White}
+div.blog-transparent{ color:White}
+div.category{ height:100px; overflow:auto; border:2px solid 0f3535; width:200px }
+span.album{ width:100px; height:20px; }
+
+
+
+
+.video-transparent{ z-index:3; float:left;position:absolute;  background-color:#D7E8E8;  padding:5px; border:2px solid #0f3535}
+.link-button-upload-video{ float:right}
+
+table#GridReadMessage{ margin-top:50px}
+
+div.blackblock{ background-color:black; border:2px solid white; color:White}
+div.blackblock a{ color:White; }
+
+a.command-favourite{ display:none}
+a.command-favourite-visible{ display:inline}
+
+a.command-favourite-remove{ display:none;}
+a.command-favourite-remove-visible{ display:inline;}
+*/
+
+.menu_class{	color:white;background-color:#9AD8E8;font-size:13px;cursor:pointer;	width:90px;	height:20px;	border-bottom:1px solid white;	display:inline-block;}
+
+.the_menu {	display:none;width:100px;margin-left:30px;}
+.the_menu li {background-color: #9AD8E8;text-align:left;float:none;border-bottom:1px solid white;}
+.the_menu li:hover {background-color: #CCC;}
+.the_menu li a{	text-align:left;color:#FFFFFF; text-decoration:none; padding:10px; display:block;}
+.the_menu li a:hover {	color: #F00880;}
+
+
+abbr.header{ float:right; font-size:11px; color:#329993; font-style:italic }
+abbr{ border:none; margin:none; vertical-align:top}

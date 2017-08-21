@@ -1,0 +1,1015 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.30729</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{3CD1D976-1E01-45B6-9B5D-C04BB26AC25F}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>BDDoctors</RootNamespace>
+    <AssemblyName>BDDoctors</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <OldToolsVersion>3.5</OldToolsVersion>
+    <UseIISExpress>false</UseIISExpress>
+    <IISExpressSSLPort />
+    <IISExpressAnonymousAuthentication />
+    <IISExpressWindowsAuthentication />
+    <IISExpressUseClassicPipelineMode />
+    <UseGlobalApplicationHostFile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="AjaxControlToolkit, Version=3.0.20820.3810, Culture=neutral, PublicKeyToken=28f01b0e84b6d53e, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\Documents and Settings\User\Local Settings\Application Data\Microsoft\VisualStudio\9.0\ProjectAssemblies\wp96vv0d01\AjaxControlToolkit.dll</HintPath>
+    </Reference>
+    <Reference Include="ASPNetFlashVideo.NET2.AJAX, Version=2.0.0.0, Culture=neutral, PublicKeyToken=ee25ccb1c1bec95f, processorArchitecture=MSIL" />
+    <Reference Include="MSCaptcha, Version=1.0.2832.11804, Culture=neutral, processorArchitecture=MSIL" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data.DataSetExtensions">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Web.Extensions">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Xml.Linq">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+    <Reference Include="System.Web.Mobile" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="ActivateAccount.aspx" />
+    <Content Include="AllFriends.aspx" />
+    <Content Include="BanglaHelp\ami.gif" />
+    <Content Include="BanglaHelp\index.html" />
+    <Content Include="BanglaHelp\letters.gif" />
+    <Content Include="BanglaHelp\mosto.gif" />
+    <Content Include="BanglaHelp\mukhosh.gif" />
+    <Content Include="BanglaHelp\orko.gif" />
+    <Content Include="BanglaHelp\phonetic_int.js" />
+    <Content Include="BanglaHelp\rastro.gif" />
+    <Content Include="BanglaHelp\vowels-and-folas.gif" />
+    <Content Include="Blog.aspx" />
+    <Content Include="Blogs.aspx" />
+    <Content Include="BlogSection\bold.gif" />
+    <Content Include="BlogSection\close.gif" />
+    <Content Include="BlogSection\CreateBlog.aspx" />
+    <Content Include="BlogSection\EditBlog.aspx" />
+    <Content Include="BlogSection\image.png" />
+    <Content Include="BlogSection\italic.gif" />
+    <Content Include="BlogSection\jquery.js" />
+    <Content Include="BlogSection\jquery.rte.js" />
+    <Content Include="BlogSection\link.png" />
+    <Content Include="BlogSection\rte.css" />
+    <Content Include="BlogSection\unordered.gif" />
+    <Content Include="ChatRoom.aspx" />
+    <Content Include="Controls\ActivationEmailBody.ascx" />
+    <Content Include="Controls\BanglaHelpBox.ascx" />
+    <Content Include="Controls\BasicInfo.ascx" />
+    <Content Include="Controls\BlogList.ascx" />
+    <Content Include="Controls\ChatPoint.ascx" />
+    <Content Include="Controls\ClickedOnAddConnectionButton.ascx" />
+    <Content Include="Controls\Comment.ascx" />
+    <Content Include="Controls\ComposeEmail.ascx" />
+    <Content Include="Controls\FeedRelated\NotifPoll.ascx" />
+    <Content Include="Controls\FeedRelated\NotifSingleImage.ascx" />
+    <Content Include="Controls\FeedRelated\Noti_WorldLocation_Changed.ascx" />
+    <Content Include="Controls\ForgottenPasswordEmailBody.ascx" />
+    <Content Include="Controls\CreateAndViewBlog.ascx" />
+    <Content Include="Controls\CreatePersona.ascx" />
+    <Content Include="Controls\DropDown.ascx" />
+    <Content Include="Controls\EducationalInformation.ascx" />
+    <Content Include="Controls\Feed.ascx" />
+    <Content Include="Controls\FeedRelated\Notif_UploadedImage.ascx" />
+    <Content Include="Controls\FeedRelated\Notif_UserStatus.ascx" />
+    <Content Include="Controls\FriendList.ascx" />
+    <Content Include="Controls\LoggedInUserMenu.ascx" />
+    <Content Include="Controls\FeedRelated\Status.ascx" />
+    <Content Include="Controls\NotifTreatPanel.ascx" />
+    <Content Include="Controls\Notif_Blog.ascx" />
+    <Content Include="Controls\Notif_UploadedVideo.ascx" />
+    <Content Include="Controls\PracticingZone.ascx" />
+    <Content Include="Controls\ProfilePhoto.ascx" />
+    <Content Include="Controls\SignIn.ascx" />
+    <Content Include="Controls\Signup.ascx" />
+    <Content Include="Controls\FriendShipRequest.ascx" />
+    <Content Include="Controls\TestControl.ascx" />
+    <Content Include="Controls\UploadedPhoto.ascx" />
+    <Content Include="Controls\UploadedVideo.ascx" />
+    <Content Include="Controls\UserStatus.ascx" />
+    <Content Include="Controls\Workstation.ascx" />
+    <Content Include="Home2.aspx" />
+    <Content Include="CreatePoll.aspx" />
+    <Content Include="CSS\Blog.css" />
+    <Content Include="CSS\Blogs.css" />
+    <Content Include="CSS\docs.css" />
+    <Content Include="CSS\Finduser.css" />
+    <Content Include="CSS\Email.css" />
+    <Content Include="CSS\Layout.css" />
+    <Content Include="CSS\mytab.css" />
+    <Content Include="Default3.aspx" />
+    <Content Include="Email.aspx" />
+    <Content Include="CSS\Request.css" />
+    <Content Include="CSS\EduInfo.css" />
+    <Content Include="CSS\Profile_Page.css" />
+    <Content Include="CSS\Home.css" />
+    <Content Include="CSS\Global.css" />
+    <Content Include="CSS\Signin_page.css" />
+    <Content Include="Finduser.aspx" />
+    <Content Include="ForgottenPassword.aspx" />
+    <Content Include="Home.aspx" />
+    <Content Include="JS\ajaxupload.js" />
+    <Content Include="JS\home.js" />
+    <Content Include="JS\ftb.js" />
+    <Content Include="JS\jquery-1.3.2.min.js" />
+    <Content Include="JS\jquery.timeago.js" />
+    <Content Include="JS\mytab.js" />
+    <Content Include="JS\phonetic_int.js" />
+    <Content Include="JS\prototype.js" />
+    <Content Include="LayoutStyle.aspx" />
+    <Content Include="MediPanel.aspx" />
+    <Content Include="MediPanelDetails.aspx" />
+    <Content Include="Pages\FriendshipRequest.aspx" />
+    <Content Include="PhotoAlbum.aspx" />
+    <Content Include="Profile.aspx" />
+    <Content Include="Request.aspx" />
+    <Content Include="RoomList.aspx" />
+    <Content Include="sample.css" />
+    <Content Include="Service\PageMethod.js" />
+    <Content Include="Service\PageMethodService.aspx" />
+    <Content Include="ShowBlog.aspx" />
+    <Content Include="Signup.aspx" />
+    <Content Include="test2.aspx" />
+    <Content Include="test3.aspx" />
+    <Content Include="testpage.aspx" />
+    <Content Include="World.aspx" />
+    <Content Include="TreatmentPanel.aspx" />
+    <Content Include="Web.config">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="youtube.aspx" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="ActivateAccount.aspx.cs">
+      <DependentUpon>ActivateAccount.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ActivateAccount.aspx.designer.cs">
+      <DependentUpon>ActivateAccount.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="AllFriends.aspx.cs">
+      <DependentUpon>AllFriends.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AllFriends.aspx.designer.cs">
+      <DependentUpon>AllFriends.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Blog.aspx.cs">
+      <DependentUpon>Blog.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Blog.aspx.designer.cs">
+      <DependentUpon>Blog.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Blogs.aspx.cs">
+      <DependentUpon>Blogs.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Blogs.aspx.designer.cs">
+      <DependentUpon>Blogs.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="BlogSection\CreateBlog.aspx.cs">
+      <DependentUpon>CreateBlog.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="BlogSection\CreateBlog.aspx.designer.cs">
+      <DependentUpon>CreateBlog.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="BlogSection\EditBlog.aspx.cs">
+      <DependentUpon>EditBlog.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="BlogSection\EditBlog.aspx.designer.cs">
+      <DependentUpon>EditBlog.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ChatRoom.aspx.cs">
+      <DependentUpon>ChatRoom.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ChatRoom.aspx.designer.cs">
+      <DependentUpon>ChatRoom.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Classes\Chat\ChatAndOnlineUser.cs" />
+    <Compile Include="Classes\Chat\OnlineUser.cs" />
+    <Compile Include="Classes\Chat\Speech.cs" />
+    <Compile Include="Classes\Common.cs" />
+    <Compile Include="Classes\DataAccess\Club.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Classes\DataAccess\jagPlace.cs" />
+    <Compile Include="Classes\DataAccess\NodeInfo.cs" />
+    <Compile Include="Classes\DataAccess\RoomChatter.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Classes\DataAccess\Email.cs" />
+    <Compile Include="Classes\DataAccess\FriendShip.cs" />
+    <Compile Include="Classes\DataAccess\Node.cs" />
+    <Compile Include="Classes\DataAccess\User.cs" />
+    <Compile Include="Classes\DataObject\Conversation.cs" />
+    <Compile Include="Classes\DataObject\Club.cs" />
+    <Compile Include="Classes\DataObject\OnlineUser.cs" />
+    <Compile Include="Classes\DataObject\Speech.cs" />
+    <Compile Include="Classes\DataObject\Enums.cs" />
+    <Compile Include="Classes\DataObject\jagplace.cs" />
+    <Compile Include="Classes\DataObject\Location.cs" />
+    <Compile Include="Classes\DataObject\NodeInfo.cs" />
+    <Compile Include="Classes\DataObject\RoomChatter.cs" />
+    <Compile Include="Classes\DataObject\Email.cs" />
+    <Compile Include="Classes\DataObject\Friend.cs" />
+    <Compile Include="Classes\DataObject\FriendShip.cs" />
+    <Compile Include="Classes\DataObject\User.cs" />
+    <Compile Include="Classes\DBConn.cs" />
+    <Compile Include="Classes\DataObject\Node.cs" />
+    <Compile Include="Classes\ImageHelper.cs" />
+    <Compile Include="Classes\LoginHandler.cs">
+    </Compile>
+    <Compile Include="Classes\UIhelper.cs" />
+    <Compile Include="club.aspx.cs">
+      <DependentUpon>club.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="club.aspx.designer.cs">
+      <DependentUpon>club.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\ActivationEmailBody.ascx.cs">
+      <DependentUpon>ActivationEmailBody.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Controls\ActivationEmailBody.ascx.designer.cs">
+      <DependentUpon>ActivationEmailBody.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\BanglaHelpBox.ascx.cs">
+      <DependentUpon>BanglaHelpBox.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Controls\BanglaHelpBox.ascx.designer.cs">
+      <DependentUpon>BanglaHelpBox.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\BasicInfo.ascx.cs">
+      <DependentUpon>BasicInfo.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Controls\BasicInfo.ascx.designer.cs">
+      <DependentUpon>BasicInfo.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\BlogList.ascx.cs">
+      <DependentUpon>BlogList.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Controls\BlogList.ascx.designer.cs">
+      <DependentUpon>BlogList.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\ChatPoint.ascx.cs">
+      <DependentUpon>ChatPoint.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Controls\ChatPoint.ascx.designer.cs">
+      <DependentUpon>ChatPoint.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\ClickedOnAddConnectionButton.ascx.cs">
+      <DependentUpon>ClickedOnAddConnectionButton.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Controls\ClickedOnAddConnectionButton.ascx.designer.cs">
+      <DependentUpon>ClickedOnAddConnectionButton.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\Comment.ascx.cs">
+      <DependentUpon>Comment.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Controls\Comment.ascx.designer.cs">
+      <DependentUpon>Comment.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\ComposeEmail.ascx.cs">
+      <DependentUpon>ComposeEmail.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Controls\ComposeEmail.ascx.designer.cs">
+      <DependentUpon>ComposeEmail.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\ContentBasedFeed.ascx.cs">
+      <DependentUpon>ContentBasedFeed.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Controls\ContentBasedFeed.ascx.designer.cs">
+      <DependentUpon>ContentBasedFeed.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\CtrlForChatRoom.ascx.cs">
+      <DependentUpon>CtrlForChatRoom.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Controls\CtrlForChatRoom.ascx.designer.cs">
+      <DependentUpon>CtrlForChatRoom.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\FeedRelated\NotifPoll.ascx.cs">
+      <DependentUpon>NotifPoll.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Controls\FeedRelated\NotifPoll.ascx.designer.cs">
+      <DependentUpon>NotifPoll.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\FeedRelated\NotifSingleImage.ascx.cs">
+      <DependentUpon>NotifSingleImage.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Controls\FeedRelated\NotifSingleImage.ascx.designer.cs">
+      <DependentUpon>NotifSingleImage.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\FeedRelated\Noti_WorldLocation_Changed.ascx.cs">
+      <DependentUpon>Noti_WorldLocation_Changed.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Controls\FeedRelated\Noti_WorldLocation_Changed.ascx.designer.cs">
+      <DependentUpon>Noti_WorldLocation_Changed.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\ForgottenPasswordEmailBody.ascx.cs">
+      <DependentUpon>ForgottenPasswordEmailBody.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Controls\ForgottenPasswordEmailBody.ascx.designer.cs">
+      <DependentUpon>ForgottenPasswordEmailBody.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\CreateAndViewBlog.ascx.cs">
+      <DependentUpon>CreateAndViewBlog.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Controls\CreateAndViewBlog.ascx.designer.cs">
+      <DependentUpon>CreateAndViewBlog.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\CreatePersona.ascx.cs">
+      <DependentUpon>CreatePersona.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Controls\CreatePersona.ascx.designer.cs">
+      <DependentUpon>CreatePersona.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\DropDown.ascx.cs">
+      <DependentUpon>DropDown.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Controls\DropDown.ascx.designer.cs">
+      <DependentUpon>DropDown.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\EducationalInformation.ascx.cs">
+      <DependentUpon>EducationalInformation.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Controls\EducationalInformation.ascx.designer.cs">
+      <DependentUpon>EducationalInformation.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\Feed.ascx.cs">
+      <DependentUpon>Feed.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Controls\Feed.ascx.designer.cs">
+      <DependentUpon>Feed.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\FeedRelated\Notif_UploadedImage.ascx.cs">
+      <DependentUpon>Notif_UploadedImage.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Controls\FeedRelated\Notif_UploadedImage.ascx.designer.cs">
+      <DependentUpon>Notif_UploadedImage.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\FeedRelated\Notif_UserStatus.ascx.cs">
+      <DependentUpon>Notif_UserStatus.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Controls\FeedRelated\Notif_UserStatus.ascx.designer.cs">
+      <DependentUpon>Notif_UserStatus.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\FriendList.ascx.cs">
+      <DependentUpon>FriendList.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Controls\FriendList.ascx.designer.cs">
+      <DependentUpon>FriendList.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\InvitationEmailBody.ascx.cs">
+      <DependentUpon>InvitationEmailBody.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Controls\InvitationEmailBody.ascx.designer.cs">
+      <DependentUpon>InvitationEmailBody.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\LinkGenerator.ascx.cs">
+      <DependentUpon>LinkGenerator.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Controls\LinkGenerator.ascx.designer.cs">
+      <DependentUpon>LinkGenerator.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\LoggedInUserMenu.ascx.cs">
+      <DependentUpon>LoggedInUserMenu.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Controls\LoggedInUserMenu.ascx.designer.cs">
+      <DependentUpon>LoggedInUserMenu.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\FeedRelated\Status.ascx.cs">
+      <DependentUpon>Status.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Controls\FeedRelated\Status.ascx.designer.cs">
+      <DependentUpon>Status.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\NotifTreatPanel.ascx.cs">
+      <DependentUpon>NotifTreatPanel.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Controls\NotifTreatPanel.ascx.designer.cs">
+      <DependentUpon>NotifTreatPanel.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\Notif_Blog.ascx.cs">
+      <DependentUpon>Notif_Blog.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Controls\Notif_Blog.ascx.designer.cs">
+      <DependentUpon>Notif_Blog.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\Notif_UploadedVideo.ascx.cs">
+      <DependentUpon>Notif_UploadedVideo.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Controls\Notif_UploadedVideo.ascx.designer.cs">
+      <DependentUpon>Notif_UploadedVideo.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\PracticingZone.ascx.cs">
+      <DependentUpon>PracticingZone.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Controls\PracticingZone.ascx.designer.cs">
+      <DependentUpon>PracticingZone.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\ProfilePhoto.ascx.cs">
+      <DependentUpon>ProfilePhoto.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Controls\ProfilePhoto.ascx.designer.cs">
+      <DependentUpon>ProfilePhoto.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\SignIn.ascx.cs">
+      <DependentUpon>SignIn.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Controls\SignIn.ascx.designer.cs">
+      <DependentUpon>SignIn.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\Signup.ascx.cs">
+      <DependentUpon>Signup.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Controls\Signup.ascx.designer.cs">
+      <DependentUpon>Signup.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\FriendShipRequest.ascx.cs">
+      <DependentUpon>FriendShipRequest.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Controls\FriendShipRequest.ascx.designer.cs">
+      <DependentUpon>FriendShipRequest.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\TestControl.ascx.cs">
+      <DependentUpon>TestControl.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Controls\TestControl.ascx.designer.cs">
+      <DependentUpon>TestControl.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\UploadedPhoto.ascx.cs">
+      <DependentUpon>UploadedPhoto.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Controls\UploadedPhoto.ascx.designer.cs">
+      <DependentUpon>UploadedPhoto.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\UploadedVideo.ascx.cs">
+      <DependentUpon>UploadedVideo.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Controls\UploadedVideo.ascx.designer.cs">
+      <DependentUpon>UploadedVideo.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\UserStatus.ascx.cs">
+      <DependentUpon>UserStatus.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Controls\UserStatus.ascx.designer.cs">
+      <DependentUpon>UserStatus.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\Workstation.ascx.cs">
+      <DependentUpon>Workstation.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Controls\Workstation.ascx.designer.cs">
+      <DependentUpon>Workstation.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="ChatRoom2.aspx.cs">
+      <DependentUpon>ChatRoom2.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ChatRoom2.aspx.designer.cs">
+      <DependentUpon>ChatRoom2.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Default.aspx.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Default.aspx.designer.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="FileHandler.ashx.cs">
+      <DependentUpon>FileHandler.ashx</DependentUpon>
+    </Compile>
+    <Compile Include="HabibLearning.aspx.cs">
+      <DependentUpon>HabibLearning.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="HabibLearning.aspx.designer.cs">
+      <DependentUpon>HabibLearning.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Home2.aspx.cs">
+      <DependentUpon>Home2.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Home2.aspx.designer.cs">
+      <DependentUpon>Home2.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="CreatePoll.aspx.cs">
+      <DependentUpon>CreatePoll.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="CreatePoll.aspx.designer.cs">
+      <DependentUpon>CreatePoll.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Default3.aspx.cs">
+      <DependentUpon>Default3.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Default3.aspx.designer.cs">
+      <DependentUpon>Default3.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Email.aspx.cs">
+      <DependentUpon>Email.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Email.aspx.designer.cs">
+      <DependentUpon>Email.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Enum\Enum.cs" />
+    <Compile Include="Finduser.aspx.cs">
+      <DependentUpon>Finduser.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Finduser.aspx.designer.cs">
+      <DependentUpon>Finduser.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ForgottenPassword.aspx.cs">
+      <DependentUpon>ForgottenPassword.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ForgottenPassword.aspx.designer.cs">
+      <DependentUpon>ForgottenPassword.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Home.aspx.cs">
+      <DependentUpon>Home.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Home.aspx.designer.cs">
+      <DependentUpon>Home.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="IframeProfilePhotoChange.aspx.cs">
+      <DependentUpon>IframeProfilePhotoChange.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="IframeProfilePhotoChange.aspx.designer.cs">
+      <DependentUpon>IframeProfilePhotoChange.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="IframeUploadWallPhoto.aspx.cs">
+      <DependentUpon>IframeUploadWallPhoto.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="IframeUploadWallPhoto.aspx.designer.cs">
+      <DependentUpon>IframeUploadWallPhoto.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="LayoutStyle.aspx.cs">
+      <DependentUpon>LayoutStyle.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="LayoutStyle.aspx.designer.cs">
+      <DependentUpon>LayoutStyle.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="MediPanel.aspx.cs">
+      <DependentUpon>MediPanel.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="MediPanel.aspx.designer.cs">
+      <DependentUpon>MediPanel.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="MediPanelDetails.aspx.cs">
+      <DependentUpon>MediPanelDetails.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="MediPanelDetails.aspx.designer.cs">
+      <DependentUpon>MediPanelDetails.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="MediPanelEdit.aspx.cs">
+      <DependentUpon>MediPanelEdit.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="MediPanelEdit.aspx.designer.cs">
+      <DependentUpon>MediPanelEdit.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\FriendshipRequest.aspx.cs">
+      <DependentUpon>FriendshipRequest.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Pages\FriendshipRequest.aspx.designer.cs">
+      <DependentUpon>FriendshipRequest.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\profile.cs" />
+    <Compile Include="PhotoAlbum.aspx.cs">
+      <DependentUpon>PhotoAlbum.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="PhotoAlbum.aspx.designer.cs">
+      <DependentUpon>PhotoAlbum.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Profile.aspx.cs">
+      <DependentUpon>Profile.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Profile.aspx.designer.cs">
+      <DependentUpon>Profile.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Registration.aspx.cs">
+      <DependentUpon>Registration.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Registration.aspx.designer.cs">
+      <DependentUpon>Registration.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="speech.aspx.cs">
+      <DependentUpon>speech.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="speech.aspx.designer.cs">
+      <DependentUpon>speech.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Tester.aspx.cs">
+      <DependentUpon>Tester.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Tester.aspx.designer.cs">
+      <DependentUpon>Tester.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Request.aspx.cs">
+      <DependentUpon>Request.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Request.aspx.designer.cs">
+      <DependentUpon>Request.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="RoomList.aspx.cs">
+      <DependentUpon>RoomList.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="RoomList.aspx.designer.cs">
+      <DependentUpon>RoomList.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="SendEmail.aspx.cs">
+      <DependentUpon>SendEmail.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="SendEmail.aspx.designer.cs">
+      <DependentUpon>SendEmail.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="SendFriendRequest.aspx.cs">
+      <DependentUpon>SendFriendRequest.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="SendFriendRequest.aspx.designer.cs">
+      <DependentUpon>SendFriendRequest.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Service\PageMethodService.aspx.cs">
+      <DependentUpon>PageMethodService.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Service\PageMethodService.aspx.designer.cs">
+      <DependentUpon>PageMethodService.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ShowBlog.aspx.cs">
+      <DependentUpon>ShowBlog.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ShowBlog.aspx.designer.cs">
+      <DependentUpon>ShowBlog.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Signup.aspx.cs">
+      <DependentUpon>Signup.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Signup.aspx.designer.cs">
+      <DependentUpon>Signup.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="StateUpoad.ashx.cs">
+      <DependentUpon>StateUpoad.ashx</DependentUpon>
+    </Compile>
+    <Compile Include="test2.aspx.cs">
+      <DependentUpon>test2.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="test2.aspx.designer.cs">
+      <DependentUpon>test2.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="test3.aspx.cs">
+      <DependentUpon>test3.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="test3.aspx.designer.cs">
+      <DependentUpon>test3.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="testpage.aspx.cs">
+      <DependentUpon>testpage.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="testpage.aspx.designer.cs">
+      <DependentUpon>testpage.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="World.aspx.cs">
+      <DependentUpon>World.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="World.aspx.designer.cs">
+      <DependentUpon>World.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="TreatmentPanel.aspx.cs">
+      <DependentUpon>TreatmentPanel.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="TreatmentPanel.aspx.designer.cs">
+      <DependentUpon>TreatmentPanel.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="worldHomeManage.aspx.cs">
+      <DependentUpon>worldHomeManage.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="worldHomeManage.aspx.designer.cs">
+      <DependentUpon>worldHomeManage.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="WorldPlace.aspx.cs">
+      <DependentUpon>WorldPlace.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="WorldPlace.aspx.designer.cs">
+      <DependentUpon>WorldPlace.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="youtube.aspx.cs">
+      <DependentUpon>youtube.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="youtube.aspx.designer.cs">
+      <DependentUpon>youtube.aspx</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="App_Data\Database1.mdf">
+    </Content>
+    <Content Include="App_Data\Database1_log.LDF">
+      <DependentUpon>Database1.mdf</DependentUpon>
+    </Content>
+    <Content Include="club.aspx" />
+    <Content Include="colorbox.css" />
+    <Content Include="Controls\ContentBasedFeed.ascx" />
+    <Content Include="ChatRoom2.aspx" />
+    <Content Include="Controls\CtrlForChatRoom.ascx" />
+    <Content Include="Controls\InvitationEmailBody.ascx" />
+    <Content Include="Controls\LinkGenerator.ascx" />
+    <Content Include="CSS\Registration.css" />
+    <Content Include="CSS\Default2.css" />
+    <Content Include="CSS\jqdialog.css" />
+    <Content Include="CSS\Club.css" />
+    <Content Include="CSS\Speech.css" />
+    <Content Include="CSS\ui.resizable.css" />
+    <Content Include="CSS\ZLayout.css" />
+    <Content Include="Default.aspx" />
+    <Content Include="FileHandler.ashx" />
+    <Content Include="HabibLearning.aspx" />
+    <Content Include="IframeProfilePhotoChange.aspx" />
+    <Content Include="IframeUploadWallPhoto.aspx" />
+    <Content Include="JS\Club.js" />
+    <Content Include="JS\Comment.js" />
+    <Content Include="JS\ChatRoom.js" />
+    <Content Include="JS\ClubAdmin.js" />
+    <Content Include="JS\PostWallPhoto.js" />
+    <Content Include="JS\ProfilePhotoChange.js" />
+    <Content Include="JS\FindFriend.js" />
+    <Content Include="JS\FeedRelated.js" />
+    <Content Include="JS\friendList.js" />
+    <Content Include="JS\Request.js" />
+    <Content Include="JS\jquery.pstrength-min.1.2.js" />
+    <Content Include="JS\Registration.js" />
+    <Content Include="JS\Default2.js" />
+    <Content Include="JS\OnlineUser.js" />
+    <Content Include="JS\emoticons.js" />
+    <Content Include="JS\jquery.emoticon.js" />
+    <Content Include="JS\JqueryDraw.js" />
+    <Content Include="JS\JqueryTimer.js" />
+    <Content Include="JS\speech.js" />
+    <Content Include="JS\State.js" />
+    <Content Include="JS\jqdialog.min.js" />
+    <Content Include="JS\main.js" />
+    <Content Include="JS\Profile.js" />
+    <Content Include="JS\jquery.colorbox-min.js" />
+    <Content Include="JS\themes\base\images\ui-bg_flat_0_aaaaaa_40x100.png" />
+    <Content Include="JS\themes\base\images\ui-bg_flat_75_ffffff_40x100.png" />
+    <Content Include="JS\themes\base\images\ui-bg_glass_55_fbf9ee_1x400.png" />
+    <Content Include="JS\themes\base\images\ui-bg_glass_65_ffffff_1x400.png" />
+    <Content Include="JS\themes\base\images\ui-bg_glass_75_dadada_1x400.png" />
+    <Content Include="JS\themes\base\images\ui-bg_glass_75_e6e6e6_1x400.png" />
+    <Content Include="JS\themes\base\images\ui-bg_glass_95_fef1ec_1x400.png" />
+    <Content Include="JS\themes\base\images\ui-bg_highlight-soft_75_cccccc_1x100.png" />
+    <Content Include="JS\themes\base\images\ui-icons_222222_256x240.png" />
+    <Content Include="JS\themes\base\images\ui-icons_2e83ff_256x240.png" />
+    <Content Include="JS\themes\base\images\ui-icons_454545_256x240.png" />
+    <Content Include="JS\themes\base\images\ui-icons_888888_256x240.png" />
+    <Content Include="JS\themes\base\images\ui-icons_cd0a0a_256x240.png" />
+    <Content Include="JS\themes\base\ui.accordion.css" />
+    <Content Include="JS\themes\base\ui.all.css" />
+    <Content Include="JS\themes\base\ui.base.css" />
+    <Content Include="JS\themes\base\ui.core.css" />
+    <Content Include="JS\themes\base\ui.datepicker.css" />
+    <Content Include="JS\themes\base\ui.dialog.css" />
+    <Content Include="JS\themes\base\ui.progressbar.css" />
+    <Content Include="JS\themes\base\ui.resizable.css" />
+    <Content Include="JS\themes\base\ui.slider.css" />
+    <Content Include="JS\themes\base\ui.tabs.css" />
+    <Content Include="JS\themes\base\ui.theme.css" />
+    <Content Include="JS\themes\dark\next.gif" />
+    <Content Include="JS\themes\dark\next.png" />
+    <Content Include="JS\themes\dark\panel-nav-next.gif" />
+    <Content Include="JS\themes\dark\panel-nav-next.png" />
+    <Content Include="JS\themes\dark\panel-nav-prev.gif" />
+    <Content Include="JS\themes\dark\panel-nav-prev.png" />
+    <Content Include="JS\themes\dark\pointer-down.png" />
+    <Content Include="JS\themes\dark\pointer.png" />
+    <Content Include="JS\themes\dark\prev.gif" />
+    <Content Include="JS\themes\dark\prev.png" />
+    <Content Include="JS\themes\light\next.gif" />
+    <Content Include="JS\themes\light\next.png" />
+    <Content Include="JS\themes\light\panel-nav-next.gif" />
+    <Content Include="JS\themes\light\panel-nav-next.png" />
+    <Content Include="JS\themes\light\panel-nav-prev.gif" />
+    <Content Include="JS\themes\light\panel-nav-prev.png" />
+    <Content Include="JS\themes\light\pointer-down.png" />
+    <Content Include="JS\themes\light\pointer.png" />
+    <Content Include="JS\themes\light\prev.gif" />
+    <Content Include="JS\themes\light\prev.png" />
+    <Content Include="JS\themes\ui-lightness\images\ui-bg_diagonals-thick_18_b81900_40x40.png" />
+    <Content Include="JS\themes\ui-lightness\images\ui-bg_diagonals-thick_20_666666_40x40.png" />
+    <Content Include="JS\themes\ui-lightness\images\ui-bg_flat_10_000000_40x100.png" />
+    <Content Include="JS\themes\ui-lightness\images\ui-bg_glass_100_f6f6f6_1x400.png" />
+    <Content Include="JS\themes\ui-lightness\images\ui-bg_glass_100_fdf5ce_1x400.png" />
+    <Content Include="JS\themes\ui-lightness\images\ui-bg_glass_65_ffffff_1x400.png" />
+    <Content Include="JS\themes\ui-lightness\images\ui-bg_gloss-wave_35_f6a828_500x100.png" />
+    <Content Include="JS\themes\ui-lightness\images\ui-bg_highlight-soft_100_eeeeee_1x100.png" />
+    <Content Include="JS\themes\ui-lightness\images\ui-bg_highlight-soft_75_ffe45c_1x100.png" />
+    <Content Include="JS\themes\ui-lightness\images\ui-icons_222222_256x240.png" />
+    <Content Include="JS\themes\ui-lightness\images\ui-icons_228ef1_256x240.png" />
+    <Content Include="JS\themes\ui-lightness\images\ui-icons_ef8c08_256x240.png" />
+    <Content Include="JS\themes\ui-lightness\images\ui-icons_ffd27a_256x240.png" />
+    <Content Include="JS\themes\ui-lightness\images\ui-icons_ffffff_256x240.png" />
+    <Content Include="JS\themes\ui-lightness\jquery-ui-1.7.2.custom.css" />
+    <Content Include="JS\themes\ui-lightness\ui.accordion.css" />
+    <Content Include="JS\themes\ui-lightness\ui.all.css" />
+    <Content Include="JS\themes\ui-lightness\ui.base.css" />
+    <Content Include="JS\themes\ui-lightness\ui.core.css" />
+    <Content Include="JS\themes\ui-lightness\ui.datepicker.css" />
+    <Content Include="JS\themes\ui-lightness\ui.dialog.css" />
+    <Content Include="JS\themes\ui-lightness\ui.progressbar.css" />
+    <Content Include="JS\themes\ui-lightness\ui.resizable.css" />
+    <Content Include="JS\themes\ui-lightness\ui.slider.css" />
+    <Content Include="JS\themes\ui-lightness\ui.tabs.css" />
+    <Content Include="JS\themes\ui-lightness\ui.theme.css" />
+    <Content Include="JS\ui.core.js" />
+    <Content Include="JS\ui.draggable.js" />
+    <Content Include="JS\ui.droppable.js" />
+    <Content Include="JS\ui.resizable.js" />
+    <Content Include="JS\WorldHomeMange.js" />
+    <Content Include="MediPanelEdit.aspx" />
+    <Content Include="PlaceBackground\Original\1.jpg" />
+    <Content Include="PlaceBackground\Original\11.jpg" />
+    <Content Include="PlaceBackground\Original\5.jpg" />
+    <Content Include="PlaceBackground\Original\6.JPG" />
+    <Content Include="PlaceBackground\Original\7.jpg" />
+    <Content Include="PlaceBackground\Original\8.jpg" />
+    <Content Include="PlaceBackground\Original\9.bmp" />
+    <Content Include="PlaceBackground\Resized\1.jpg" />
+    <Content Include="PlaceBackground\Resized\11.jpg" />
+    <Content Include="PlaceBackground\Resized\5.jpg" />
+    <Content Include="PlaceBackground\Resized\6.jpg" />
+    <Content Include="PlaceBackground\Resized\7.jpg" />
+    <Content Include="PlaceBackground\Resized\8.jpg" />
+    <Content Include="PlaceBackground\Resized\9.jpg" />
+    <Content Include="PlaceBackground\thumbs\1.jpg" />
+    <Content Include="PlaceBackground\thumbs\11.jpg" />
+    <Content Include="PlaceBackground\thumbs\5.jpg" />
+    <Content Include="PlaceBackground\thumbs\6.jpg" />
+    <Content Include="PlaceBackground\thumbs\7.jpg" />
+    <Content Include="PlaceBackground\thumbs\8.jpg" />
+    <Content Include="PlaceBackground\thumbs\9.jpg" />
+    <Content Include="Registration.aspx" />
+    <Content Include="speech.aspx" />
+    <Content Include="Tester.aspx" />
+    <Content Include="SendEmail.aspx" />
+    <Content Include="SendFriendRequest.aspx" />
+    <Content Include="StateUpoad.ashx" />
+    <Content Include="worldHomeManage.aspx" />
+    <Content Include="WorldPlace.aspx" />
+    <None Include="Properties\PublishProfiles\ivy..pubxml" />
+    <None Include="Video\1_218_upload.flv" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Properties\licenses.licx" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="JS\emotes\" />
+  </ItemGroup>
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(VSToolsPath)\WebApplications\Microsoft.WebApplication.targets" Condition="'$(VSToolsPath)' != ''" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" Condition="false" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>False</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>1145</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>
+          </IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+</Project>

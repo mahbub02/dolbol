@@ -1,0 +1,5 @@
+﻿div.signin-left{	width:55%; height:100%; float:left; }
+div.signin-right{ width:40%; height:100%; float:right;  	}
+div.signing-signup{ margin-top:90px;}
+div.signin-footer{ width:100%; height:50px; position:absolute;bottom:0px; background-color:#2F9A8F; float:left; }/* background-color:#0F3535;*/
+div.signin-footer a{ color:blue}

@@ -1,0 +1,17 @@
+﻿div.home-left{ width:600px;  float:left;  }
+div.home-right{ width:380px;float:left;  }
+
+abbr.header{ float:right; font-size:11px; color:#329993; font-style:italic }
+abbr{ border:none; margin:none; vertical-align:top}
+
+img.mini{ width:40px; border:none; padding:none;}
+
+
+
+.menu_class{	color:black;background-color:#9AD8E8;font-size:13px;cursor:pointer; 	width:90px;	height:20px;	border-bottom:1px solid white;	display:inline-block;}
+
+.the_menu {	display:none;width:100px;margin-left:30px;}
+.the_menu li {background-color: #9AD8E8;text-align:left;float:none;border-bottom:1px solid white;}
+.the_menu li:hover {background-color: #CCC;}
+.the_menu li a{	text-align:left;color:#FFFFFF; text-decoration:none; padding:10px; display:block;}
+.the_menu li a:hover {	color: #F00880;}

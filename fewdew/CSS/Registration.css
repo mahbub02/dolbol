@@ -1,0 +1,49 @@
+﻿
+div#header-area ul li{ background-image:url(../images/site/buttonhover.gif);opacity: 0.6; cursor:pointer; width:123px; height:25px; display:inline-block;  }
+div#header-area ul li { margin:0 auto; text-align:center; float:left; margin-left:20px }
+div#header-area ul li span { line-height:25px; font-weight:bold; }
+
+
+div#logo-container{background-image:url(../images/site/Dew-drops.png);  margin:0 auto; width:200px; height:182px; display:inline-block}
+
+
+div#left-block{float:left; width:350px; height:400px; }
+div#right-block{float:right;width:550px;height:400px; }
+
+div#panda-image{ background-image:url(../images/site/panda.png); width:179px; height:233px; background-color:Transparent; }
+div#SignupBoxContainer{ width:350px; display:inline-block;   float:right;  background-color:Transparent; margin-top:5px;}
+div#SignupBoxHeader{ width:100%; height:30px;text-align:center; color:White;   background-image:url(../images/site/block-header-enlarged.gif); background-color:Transparent; background-repeat:no-repeat }
+div#Signupbox{ width:100%;background-color:#B0C62A;}
+
+span#what-is-fewdew{ width:100%; font-weight:bold; cursor:pointer}
+div#fewdew-description{ width:400px; height:300px; overflow:hidden; display:inline-block; text-align:justify}
+
+div#company-details{ width:300px; position:absolute; display:none; background-color:#B0C62A; padding:10px}
+div.menu-details{ border:1px solid #DDE3B7; border-top:none; display:none}
+
+div#contact-us-details{ width:430px;  position:absolute;background-color:#B0C62A; }
+div#business-inquiries{ width:200px; padding:5px; border-right:1px solid #DDE3B7}
+div#business-inquiries span{ width:100%; font-weight:bold}
+div#media-information{ width:200px; padding:5px;}
+div#media-information span{ width:100%; font-weight:bold}
+
+div#Signupbox ul li{ margin-top:6px; list-style:none;  width:100%; }
+div#Signupbox ul li span{ display:inline-block; width:90px; margin-right:5px; text-align:right;  font-size:12px;}
+div#Signupbox ul li span#Message{display:inline-block; color:red; width:130px; font-weight:normal; font-size:12px}
+span#sign-up{ font-weight:bold; vertical-align:bottom; width:100%; display:block;  font-size:14px; margin-top:30px; cursor:pointer}
+span#sign-up:hover{ color:#223F00}
+
+div#Signupbox ul li  span#check-availability{ font-size:9px; cursor:pointer; }
+span#email-message{ color:Red}
+div#Signupbox ul li div#password-box{ width:200px; display:inline-block; background-color:Red }
+div#Signupbox ul li div#password-box *{ float:left}
+div.pstrength-minchar{ font-size:9px;  }
+div#Signupbox  img{ cursor:pointer}
+
+img.avatar{ border:1px solid #B0C62A;   }
+img.avatarSelected{ background-color:#4B6300}
+div#Signupbox ul li span#avatar-selection-message{display:inline-block; width:100%; text-align:center;  }
+
+div#maleAvatar{ background-color:#DDE3B7; margin:10px; }
+div#femaleAvatar{ background-color:#DDE3B7; margin:10px;display:none}
+input.NotYetGiven{ border:1px solid red}

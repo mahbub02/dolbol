@@ -1,0 +1,250 @@
+﻿div#header-area{ border-bottom:1px solid black;}
+div#header-area ul li{ background-image:none; cursor:pointer; width:123px; height:25px; display:inline-block;  }
+div#header-area ul li:hover{  background-image:none;}
+div#header-area ul li {  text-align:center; float:left; margin-left:20px }/* margin:0 auto;*/
+div#header-area ul li span { line-height:25px; font-weight:bold; }
+li.menu{ height:15px; display:inline-block; background-color:#889B12}
+.menu:hover{ background-color:#9FB41D}
+ul#FeedMenus{ max-width:80px;  position:absolute; z-index:1000; top:25px; left:438px;}
+ul#FeedMenus li{ border-bottom:1px solid #8B9D21; background-color:#9FB41D}
+ul#FeedMenus li *{float:none; display:block; width:100%;}
+ul#FeedMenus li:hover{ background-color:#B0C62A}
+
+
+img.sample-avatar{ cursor:pointer; border:3px solid #FCFCCC; margin:4px;}
+
+div#emo-list{display:none; background-color:#B0C62A; position:absolute; border:1px solid #6B8100;  z-index:1001;  height:350px; opacity:0.97;filter:alpha(opacity=97);}
+
+div#static-emo{ width:150px; display:inline-block; height:100%; border:1px solid #B0C62A;overflow:auto;}
+div#dynamic-emo-folder{ width:160px;display:none;height:100%;overflow:auto;border:1px solid #60CDF3}
+div#dynamic-emo{ width:120px;display:none;height:100%;overflow:auto;border:1px solid #60CDF3}
+span#ShowMoreEmo{ cursor:pointer; width:100%; text-align:right; display:inline-block; background-color:#768B17}
+div.avatarfolder{ width:100%; margin:1px; height:20px; background-color:White; cursor:pointer}
+
+div#dynamic-emo p{ width:200px; height:15px;display:inline-block; }
+
+
+
+img.emo-item{cursor:pointer; max-width:40px; max-height:40px; margin:4px; border:1px solid transparent}
+
+
+img.ShowHideAvatarList,img.ShowHideEmo{ cursor:pointer;}
+img.ShowHideAvatarList:hover,img.ShowHideEmo:hover{opacity:0.4;filter:alpha(opacity=40)}
+
+div#left-sider{ width:20px; height:100%; display:inline-block }
+
+div#club-chatter{ width:940px;  height:700px;   cursor:pointer; margin:5px; margin-left:30px }
+div.chatterName{ position:relative; top:55px;left:8px; font-size:9px}
+div.chatbox{ display:none; padding:4px; font-size:12px; font-weight:bold;   background-color:white;  width:79px;  text-align:left; position:absolute}
+img.chatBackGround{ position:absolute; z-index:1; }
+div.OnlyText{ position:absolute; font-weight:bold}
+div.avatar{ cursor:pointer; display:inline-block;}
+
+
+div#right-sider{ width:250px; height:100%;}
+div#right-sider-accordioncontainer{ height:100%; overflow:auto}
+
+
+
+
+div#ChatHistoryBoxContainer{ width:240px; overflow:auto; position:absolute;opacity:0.9;filter:alpha(opacity=90); border:1px solid #6B8100;z-index:1001;  display:none;  background-color:Transparent; margin-top:5px;}
+div#ChatHistoryBoxHeader{ width:100%; height:15px;text-align:center; color:White;    background-color:#6B8100; }
+div#ChatHistory{ width:240px; height:200px;overflow:auto;background-color:#B0C62A;}
+div.conversationbox{ display:block; width:100%;}
+div.sender-name{  display:inline-block; padding-right:5px;font-size:13px; font-weight:bold; height:100%;}
+div.sender-message{ color:black;display:inline-block; font-size:13px; font-weight:bold; height:100%;}
+div.sender-message img{ max-height:30px; max-width:30px;}
+
+
+div#ClubLocationContainer{ width:240px; overflow:auto;background-color:Transparent;  margin-top:5px;}
+div#ClubLocationContainerHeader{ width:100%; height:30px;text-align:center; color:White;  background-image:url(../images/site/block-header.gif);  }
+div#ChatLocations{ width:100%; cursor:pointer; overflow:auto;background-color:#B0C62A;}
+img.ChatLocation{ margin:5px; border:1px solid #244200; cursor:pointer}
+
+img.chatHistoryBox-minmax{ cursor:pointer; }
+img.ClubLocation-minmax{ cursor:pointer}
+
+
+div#region-container{ position:absolute; left:150px; width:200px; height:300px;background-color:#B0C62A;  border:1px solid #6B8100;  z-index:1001;  opacity:0.97;filter:alpha(opacity=97);}
+
+div#region-container-header{display:inline-block;  width:198px; height:25px; background-color:#738817}
+span.region{ display:inline-block; cursor:pointer; width:198px; height:15px; background-color:#9FB41D; margin-top:5px;}
+span.region:hover{ background-color:#748919}
+div.virtual-world{ width:98px; display:inline-block; text-align:center; }
+div.virtual-world img{ padding:10px; padding-bottom:0px;}
+.altOnTop{ cursor:pointer}
+
+div#club-map{ background-repeat:no-repeat; border:1px solid black; display:none;  position:absolute; left:200px; top:200px; z-index:10000; width:500px; height:322px;  }
+div#hide-map{ float:right; cursor:pointer;  width:25px; height:25px; float:right;}
+div.place-short-cut{ cursor:pointer;  opacity:.0; background-color:#1B608E; height:50px; width:50px; z-index:10001; position:absolute; display:inline-block}
+div#shortcut1{ left:25px; top:100px; height:70px; width:60px }
+div#shortcut2{ left:35px; top:200px; width:70px; height:70px }
+div#shortcut3{ left:130px; top:60px;width:70px; height:70px   }
+div#shortcut4{ left:260px; top:170px; width:50px;  }
+
+div#shortcut6{ left:140px; top:170px; width:110px; }
+div#shortcut7{ left:370px; top:115px; width:60px; height:35px; }
+div#shortcut8{ left:312px; top:45px; width:50px; height:50px; }
+div#shortcut9{ left:330px; top:165px; width:100px;height:50px; }
+div#shortcut10{ left:240px; top:100px; width:80px; height:50px; }
+div#shortcut11{  left:400px; top:75px; width:40px; height:35px; }
+
+/* .rounded{-moz-border-radius: 12px;-webkit-border-radius: 12px;border-radius: 12px} */
+
+
+
+
+
+
+
+
+
+
+
+
+
+div#speechFooterContainer{ position:absolute; z-index:1001; width:690px; height:30px; display:none; background-color:#E5E5E5;}
+
+div.speechWindow{ z-index:1002; position:absolute; display:none;  font-size:13px; width:230px;  height:270px;border:1px solid #B5B5B5; border-bottom:0px; position:absolute;  background-color:White}
+div.speechWindowheader{ width:100%; height:20px; background-color:#B0C62A;}
+div.speechWindowheader span#minimize{ cursor:pointer}
+div.speechWindowSpeehList{width:100%; height:220px; overflow:auto; border-bottom:1px solid #CCC}
+
+div.speechWindowEntryBox{width:100%; height:30px;}
+div.speechWindowEntryBox textarea{ width:99%; display:inline-block; height:20px; border:1px solid #CCC}
+
+div.speechFooter{height:20px;z-index:1003;  position:absolute;  font-weight:bold; text-align: center; cursor:pointer; border:1px solid #B5B5B5; display:none; background-color:#9BAB32; width:230px; }
+div.speechFooter:hover{ background-color:#B0C62A; }
+span.footerUserName{color:black;}
+span.footerClose{float:right;color:#7C7C7C; margin-right:8px; z-index:1003 }
+span.footerClose:hover{ color:Black; cursor:pointer}
+
+div#leftScroll{ width:25px;cursor:pointer; display:none;   position:absolute; background-color:#E5E5E5; background-image:url(../images/site/left.gif); background-repeat:no-repeat; background-position:0 7px;text-align:right}
+div#rightScroll{ width:25px;cursor:pointer;display:none;   position:absolute;background-color:#E5E5E5;background-image:url(../images/site/right.gif); background-repeat:no-repeat; background-position:14px 7px;text-align:left}
+div#leftScroll span{ margin-top:7px; height:12px; display:inline-block; }
+div#rightScroll span{ margin-top:7px;height:12px; display:inline-block; }
+
+div.speech-sender{ display:inline; float:left; margin-right:5px; font-size:13px; font-weight:bold; color:#999999}
+div.action-time{display:inline; float:right;font-size:9px; color:#999999}
+div.speech{ display:inline-block; width:100%; border-bottom:1px solid #EEEEEE; margin-bottom:10px}
+div.blink{ background-color:#F1F825}
+div.speechProgress{ width:100%;background-image:url(../images/site/chatprogress.png); background-repeat:no-repeat; display:inline-block;  height:11px}
+div.instant-request{ background-color:#DDE3B7; margin-top:3px; border-bottom:1px solid white; margin-bottom:3px;font-style:italic; font-size:10px;}
+div.instant-request span{ margin-left:4px; border:1px solid #CCC;cursor:pointer;font-size:10px;}
+div.instant-request span:hover{ margin-left:4px;border:1px solid black}
+div.instant-reply{ font-style:italic;font-size:10px;border-bottom:1px solid white; margin-bottom:3px;}
+
+
+
+div#OnlineUserDisplayBox{ width:140px; overflow:auto;background-color:#B0C62A; margin-top:5px; z-index:1000}
+div#OnlineUserBoxHeader{ width:100%; text-align:center; color:White; height:15px; background-color:#9FB41D; font-weight:bold; display:inline-block }
+div#OnlineUserContainer{width:98%; border:1px solid #9FB41D;  height:180px;overflow:auto; }
+.onlineMinMax{ margin-left:10px; margin-right:10px; background-image:url('../Images/Site/onlinecontact.gif');  height:30px;  cursor:pointer; width:30px; display:inline-block;  float:left}
+.onlineMinMax:hover{ opacity:0.4;filter:alpha(opacity=40)}
+.ShowHideMap{  cursor:pointer}
+.ShowHideMap:hover{ opacity:0.4;filter:alpha(opacity=40)}
+.ShowHideChatHistory{ cursor:pointer; }
+.ShowHideChatHistory:hover{opacity:0.5;filter:alpha(opacity=50);}
+
+div.onlineUser{ cursor:pointer; width:96%; margin:2px; color:Black;  text-align:left; margin-bottom:5px}
+div.onlineUser:hover{  font-weight:bold}
+div.onlineUserImage{ width:15px; height:15px; display:inline-block;-moz-border-radius: 4px;-webkit-border-radius: 4px;border-radius:4px}
+div.onlineUserName{ margin-left:5px;}
+
+
+div#avatar-details{ background-repeat:no-repeat;  display:none;  position:absolute;  top:25px;  width:440px;  background-color:#B0C62A;z-index:2000; border:1px solid #92A138; border-top:none;z-index:2001; }
+div#avatar-details-image{ width:80px; margin:5px; height:80px; display:inline-block; background-repeat:no-repeat}
+a#profilePhoto{  position:absolute; top:0px; left:75px; z-index:2000}
+div#option-container{ width:180px; display:inline-block;  display:inline}
+
+div#avatar-details img.options{ margin:4px; cursor:pointer; width:15px;border:1px solid transparent; }
+div#avatar-details img.options:hover{ border:1px solid white; }
+div#closeAvatarDetails{ color:#92A138; font-size:8px}
+div#closeAvatarDetails:hover{ background-color:#485018; color:White }
+div#secondleveltitle{ font-size:13px; border-bottom:1px solid #92A138; width:100%;}
+div#StatusBox{width:320px;  height:100px; }
+textarea#txtStatusBox{ width:310px; height:25px;background-color:#DDE3B7; border:1px solid #92A138}
+span#avatar-user-name{ width:100%;margin-top:5px; font-weight:bold;   text-align:left; color:#49511A}
+input#btnStatusBox{ margin-left:50px;   }
+
+div#RequestContainer{ position:absolute; width:440px; max-height:400px; overflow:auto; border:1px solid green; border-top:none; padding-top:30px; padding-bottom:30px; left:200px; top:100px; display:inline-block;   background-color:#B0C62A;border:1px solid #92A138; border-top:none;z-index:2001;}
+div.RequestBox{ height:20px; padding:3px; border-bottom:1px solid #4B521F}
+div.RequestRequester{padding-left:5px; cursor:pointer; color:#4B521F; padding-right:5px; font-weight:bold; display:inline-block}
+div.RequesterDetails{ display:inline;color:#4B521F;}
+div.RequestController{ float:right; height:18px; display:inline-block;color:#4B521F; }
+div.RequestAccept,div.RequestReject{  padding-left:15px; padding-right:15px; height:18px; background-color:#5D7200; margin-right:5px; display:inline-block; cursor:pointer; border:1px solid #607900}
+div.RequestAccept:hover,div.RequestReject:hover{ border:1px solid #0E2C00}
+div.RequestReject{ background-color:#607900}
+
+
+div#FriendListContainer{ position:absolute; width:430px; padding:5px; overflow:auto;  display:none; background-color:#BBCF40; border:1px solid #92A138; border-top:none;z-index:2000;}
+div.FriendBox{ width:60px;  display:inline-block; }
+div.FriendImage{ width:40px;height:40px; display:inline-block; background-repeat:no-repeat; margin:0 auto;  margin:10px; margin-bottom:0px;}
+div.FriendName{ width:100%; text-align:center; cursor:pointer }
+p#title{ width:100%; font-weight:bold; border-bottom:1px solid black}
+
+
+div#FeedContainerWrapper{ position:absolute; width:430px; max-height:300px; padding:5px; overflow:auto;  background-color:#BBCF40;border:1px solid #92A138; padding-top:20px; border-top:none; z-index:2000;}
+div#WallOwnerName{ font-size:13px; font-weight:bold; width:420px; padding-bottom:10px; text-align:center;}
+div.FeedBox{ width:100%;  display:inline-block; vertical-align:top; border-bottom:1px solid #B0C62A  }
+div.feedLeftBlock{ width:50px;  display:inline-block;}
+div.feeduserImage{ width:40px; height:40px; display:inline-block;background-repeat:no-repeat; cursor:pointer}
+div.feedRightBlock{ width:340px;display:inline-block; vertical-align:top;}
+div.feedFeed{ width:340px; display:inline-block;}
+div.feedControllerBox{ width:340px; display:inline-block;}
+div.feedCommentContainer{ width:340px; background-color:#B0C62A   }
+div.feedCommentList{ width:340px; }
+div.FeedPostCommentContainer{ width:340px;display:none}
+textarea.FeedCommentInputBox{ width:200px;height:20px; margin-left:140px;background-color:#DDE3B7; border:1px solid #92A138}
+input.FeedPostCommentButton{  margin-left:280px;  font-weight:bold; background-color:#A7BA32; border:1px solid #64A80B; color:#0E2C00; cursor:pointer; }
+input.FeedPostCommentButton:hover{border:1px solid black}
+
+div.feedUserName{ display:inline; font-weight:bold; margin-right:10px;color:#324E00; cursor:pointer}
+div.feedWallOwnerNameUserName{ display:inline; font-weight:bold; margin-right:10px;color:#324E00; cursor:pointer}
+div.commentLink{ font-size:9px; cursor:pointer;color:#324E00; display:inline; width:100px; }
+div.timestamp{  display:inline;font-size:9px; color:#657214; margin-right:5px; }
+
+div.feedUserStatus{ display:inline-block; vertical-align:top}
+img.uploaded-photo{ padding:4px; border:1px solid #B0C62A}
+div.photo-title{ font-weight:bold; display:block;}
+div.photo-description{ display:block; background-color:#B0C62A; }
+
+
+
+div.SingleCommentBox{ width:340px;display:inline-block; vertical-align:top; border-top:1px solid #BBCF40}
+div.CommentBoxLeft{ width:25px; height:25px; display:inline-block; }
+div.CommenterPhoto{ width:25px; height:25px; display:inline-block; background-repeat:no-repeat; cursor:pointer}
+div.CommentBoxRight{ width:290px;margin-left:5px; display:inline-block; vertical-align:top;}
+div.CommenterName{ display:inline;  margin-right:5px; font-weight:bold; color:#324E00; cursor:pointer}
+div.CommenterComment{ display:inline}
+div.CommentController{ width:290px; display:inline-block}
+div.CommentDate{ font-size:9px;}
+div.CommentDelete{ font-size:8px; color:black;display:inline;cursor:pointer}
+div.CommentDelete:hover{ color:#324E00}
+div.deletepost{ position:absolute; z-index:2000; border:1px solid transparent;  background-color:#B0C62A;cursor:pointer; padding:2px;  display:inline-block }
+div.deletepost:hover{ border:1px solid #556D00; }
+div#ShowOlderPostButton{ cursor:pointer; float:right;}
+div#NoFeedMessage,NoFriendMessage{ width:100%; height:20px; display:inline-block}
+
+
+
+
+div#FindFriendWrapper{ z-index:2001; position:absolute; display:none; width:300px;  background-color:#B0C62A; position:absolute}
+div#FindFriendHeader{ width:100%; height:25px; background-color:#697D08;opacity: 0.6;}
+
+div#FindFriendPanel ul li{ width:260px; display:inline-block; }
+div#FindFriendPanel span  {font-size:12px; color:#485016 }
+span#FindFriendClose{  padding:4px; width:15px; cursor:pointer;}
+input#txtSearchFriend{ height:20px; width:150px; border:1px solid #859A16}
+input#btnFriendSearch{ margin-left:10px; background-color:#859A16; height:22px; width:50px; border:1px solid #859A16; cursor:pointer}
+input#btnFriendSearch:hover{ border:1px solid black;}
+div#searchedUserListContainer{ width:100%;  margin-top:5px; max-height:300px; overflow:auto;}
+
+div.SearchedUserBlock{ width:80px; display:inline-block; padding:5px; margin:5px; cursor:pointer; background-color:#C7DD42; }
+div.SearchedUserPhoto{ width:80px; height:80px; display:inline-block; background-repeat:no-repeat}
+div.SearchedUserName{ display:block; text-align:center;}
+ul#InvitationForm{ float:none; margin-left:20px; background-color:#C9E161; list-style:none;width:250px; display:none;}
+ul#InvitationForm li{ float:none;list-style:none; width:250px; display:inline-block; margin-top:12px}
+ul#InvitationForm li span{ width:60px; margin-right:5px; display:inline-block; text-align:right; font-size:12px; font-weight:bold}
+input#btnInvite{ background-color:#859A16; height:22px; width:40px; border:1px solid #859A16; cursor:pointer}
+input#btnInvite:hover{ border:1px solid black;}

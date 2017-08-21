@@ -1,0 +1,799 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--
+This file is used by the publish/package process of your Web project. You can customize the behavior of this process
+by editing this MSBuild file. In order to learn more about this please visit http://go.microsoft.com/fwlink/?LinkID=208121. 
+-->
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+    <_PublishTargetUrl>C:\Users\mahbub\Desktop\dolbol2\publish</_PublishTargetUrl>
+  </PropertyGroup>
+  <ItemGroup>
+    <File Include="ActivateAccount.aspx">
+      <publishTime>04/24/2010 08:13:56</publishTime>
+    </File>
+    <File Include="AllFriends.aspx">
+      <publishTime>10/21/2009 12:03:02</publishTime>
+    </File>
+    <File Include="App_Data/Database1.mdf">
+      <publishTime>01/10/2010 02:14:02</publishTime>
+    </File>
+    <File Include="App_Data/Database1_log.LDF">
+      <publishTime>01/10/2010 02:14:02</publishTime>
+    </File>
+    <File Include="BanglaHelp/ami.gif">
+      <publishTime>09/14/2006 23:53:26</publishTime>
+    </File>
+    <File Include="BanglaHelp/index.html">
+      <publishTime>09/25/2009 12:32:22</publishTime>
+    </File>
+    <File Include="BanglaHelp/letters.gif">
+      <publishTime>09/14/2006 23:53:30</publishTime>
+    </File>
+    <File Include="BanglaHelp/mosto.gif">
+      <publishTime>09/14/2006 23:53:30</publishTime>
+    </File>
+    <File Include="BanglaHelp/mukhosh.gif">
+      <publishTime>09/14/2006 23:53:36</publishTime>
+    </File>
+    <File Include="BanglaHelp/orko.gif">
+      <publishTime>09/14/2006 23:53:36</publishTime>
+    </File>
+    <File Include="BanglaHelp/phonetic_int.js">
+      <publishTime>12/26/2009 12:01:14</publishTime>
+    </File>
+    <File Include="BanglaHelp/rastro.gif">
+      <publishTime>09/14/2006 23:53:42</publishTime>
+    </File>
+    <File Include="BanglaHelp/vowels-and-folas.gif">
+      <publishTime>09/14/2006 23:53:46</publishTime>
+    </File>
+    <File Include="bin/AjaxControlToolkit.dll">
+      <publishTime>07/24/2009 13:34:12</publishTime>
+    </File>
+    <File Include="bin/ASPNetFlashVideo.NET2.AJAX.dll">
+      <publishTime>06/16/2009 11:12:10</publishTime>
+    </File>
+    <File Include="bin/BDDoctors.dll">
+      <publishTime>08/20/2017 18:38:45</publishTime>
+    </File>
+    <File Include="bin/MSCaptcha.dll">
+      <publishTime>10/02/2007 19:33:28</publishTime>
+    </File>
+    <File Include="Blog.aspx">
+      <publishTime>12/26/2009 12:39:52</publishTime>
+    </File>
+    <File Include="Blogs.aspx">
+      <publishTime>09/15/2009 15:27:48</publishTime>
+    </File>
+    <File Include="BlogSection/bold.gif">
+      <publishTime>09/11/2007 10:20:26</publishTime>
+    </File>
+    <File Include="BlogSection/close.gif">
+      <publishTime>11/07/2009 04:20:04</publishTime>
+    </File>
+    <File Include="BlogSection/CreateBlog.aspx">
+      <publishTime>12/09/2009 13:28:42</publishTime>
+    </File>
+    <File Include="BlogSection/EditBlog.aspx">
+      <publishTime>12/09/2009 10:53:54</publishTime>
+    </File>
+    <File Include="BlogSection/image.png">
+      <publishTime>10/09/2006 04:44:00</publishTime>
+    </File>
+    <File Include="BlogSection/italic.gif">
+      <publishTime>09/11/2007 10:20:42</publishTime>
+    </File>
+    <File Include="BlogSection/jquery.js">
+      <publishTime>09/11/2007 13:53:48</publishTime>
+    </File>
+    <File Include="BlogSection/jquery.rte.js">
+      <publishTime>11/09/2009 06:28:30</publishTime>
+    </File>
+    <File Include="BlogSection/link.png">
+      <publishTime>10/09/2006 04:21:02</publishTime>
+    </File>
+    <File Include="BlogSection/rte.css">
+      <publishTime>11/15/2009 09:06:00</publishTime>
+    </File>
+    <File Include="BlogSection/unordered.gif">
+      <publishTime>09/11/2007 15:08:32</publishTime>
+    </File>
+    <File Include="ChatRoom.aspx">
+      <publishTime>12/30/2009 13:39:52</publishTime>
+    </File>
+    <File Include="ChatRoom2.aspx">
+      <publishTime>12/22/2009 12:39:14</publishTime>
+    </File>
+    <File Include="club.aspx">
+      <publishTime>05/30/2010 12:53:12</publishTime>
+    </File>
+    <File Include="colorbox.css">
+      <publishTime>09/18/2009 19:40:22</publishTime>
+    </File>
+    <File Include="Controls/ActivationEmailBody.ascx">
+      <publishTime>08/20/2017 18:38:32</publishTime>
+    </File>
+    <File Include="Controls/BanglaHelpBox.ascx">
+      <publishTime>11/07/2009 09:26:44</publishTime>
+    </File>
+    <File Include="Controls/BasicInfo.ascx">
+      <publishTime>12/12/2009 01:46:04</publishTime>
+    </File>
+    <File Include="Controls/BlogList.ascx">
+      <publishTime>12/01/2009 12:34:26</publishTime>
+    </File>
+    <File Include="Controls/ChatPoint.ascx">
+      <publishTime>12/01/2009 12:52:04</publishTime>
+    </File>
+    <File Include="Controls/ClickedOnAddConnectionButton.ascx">
+      <publishTime>10/21/2009 12:03:02</publishTime>
+    </File>
+    <File Include="Controls/Comment.ascx">
+      <publishTime>12/26/2009 12:23:16</publishTime>
+    </File>
+    <File Include="Controls/ComposeEmail.ascx">
+      <publishTime>12/01/2009 12:38:06</publishTime>
+    </File>
+    <File Include="Controls/ContentBasedFeed.ascx">
+      <publishTime>12/03/2009 13:08:48</publishTime>
+    </File>
+    <File Include="Controls/CreateAndViewBlog.ascx">
+      <publishTime>07/24/2009 13:34:14</publishTime>
+    </File>
+    <File Include="Controls/CreatePersona.ascx">
+      <publishTime>10/21/2009 12:03:02</publishTime>
+    </File>
+    <File Include="Controls/CtrlForChatRoom.ascx">
+      <publishTime>12/21/2009 14:51:56</publishTime>
+    </File>
+    <File Include="Controls/DropDown.ascx">
+      <publishTime>07/24/2009 13:34:14</publishTime>
+    </File>
+    <File Include="Controls/EducationalInformation.ascx">
+      <publishTime>12/01/2009 12:35:28</publishTime>
+    </File>
+    <File Include="Controls/Feed.ascx">
+      <publishTime>07/24/2009 13:34:14</publishTime>
+    </File>
+    <File Include="Controls/FeedRelated/NotifPoll.ascx">
+      <publishTime>10/21/2009 12:03:02</publishTime>
+    </File>
+    <File Include="Controls/FeedRelated/NotifSingleImage.ascx">
+      <publishTime>12/07/2009 12:08:06</publishTime>
+    </File>
+    <File Include="Controls/FeedRelated/Notif_UploadedImage.ascx">
+      <publishTime>12/12/2009 01:17:44</publishTime>
+    </File>
+    <File Include="Controls/FeedRelated/Notif_UserStatus.ascx">
+      <publishTime>11/26/2009 12:30:52</publishTime>
+    </File>
+    <File Include="Controls/FeedRelated/Noti_WorldLocation_Changed.ascx">
+      <publishTime>11/24/2009 15:43:02</publishTime>
+    </File>
+    <File Include="Controls/FeedRelated/Status.ascx">
+      <publishTime>11/23/2009 09:29:16</publishTime>
+    </File>
+    <File Include="Controls/ForgottenPasswordEmailBody.ascx">
+      <publishTime>09/23/2009 15:45:08</publishTime>
+    </File>
+    <File Include="Controls/FriendList.ascx">
+      <publishTime>12/05/2009 08:54:08</publishTime>
+    </File>
+    <File Include="Controls/FriendShipRequest.ascx">
+      <publishTime>10/21/2009 12:03:02</publishTime>
+    </File>
+    <File Include="Controls/InvitationEmailBody.ascx">
+      <publishTime>04/24/2010 08:45:50</publishTime>
+    </File>
+    <File Include="Controls/LinkGenerator.ascx">
+      <publishTime>12/23/2009 12:03:16</publishTime>
+    </File>
+    <File Include="Controls/LoggedInUserMenu.ascx">
+      <publishTime>05/02/2010 14:17:30</publishTime>
+    </File>
+    <File Include="Controls/NotifTreatPanel.ascx">
+      <publishTime>12/12/2009 04:56:50</publishTime>
+    </File>
+    <File Include="Controls/Notif_Blog.ascx">
+      <publishTime>12/13/2009 10:13:20</publishTime>
+    </File>
+    <File Include="Controls/Notif_UploadedVideo.ascx">
+      <publishTime>11/23/2009 09:35:36</publishTime>
+    </File>
+    <File Include="Controls/PracticingZone.ascx">
+      <publishTime>12/01/2009 12:37:44</publishTime>
+    </File>
+    <File Include="Controls/ProfilePhoto.ascx">
+      <publishTime>12/01/2009 12:31:18</publishTime>
+    </File>
+    <File Include="Controls/SignIn.ascx">
+      <publishTime>10/24/2009 01:53:30</publishTime>
+    </File>
+    <File Include="Controls/Signup.ascx">
+      <publishTime>11/17/2009 12:33:38</publishTime>
+    </File>
+    <File Include="Controls/TestControl.ascx">
+      <publishTime>12/01/2009 12:52:04</publishTime>
+    </File>
+    <File Include="Controls/UploadedPhoto.ascx">
+      <publishTime>12/01/2009 12:33:24</publishTime>
+    </File>
+    <File Include="Controls/UploadedVideo.ascx">
+      <publishTime>12/01/2009 12:52:04</publishTime>
+    </File>
+    <File Include="Controls/UserStatus.ascx">
+      <publishTime>09/05/2009 04:10:14</publishTime>
+    </File>
+    <File Include="Controls/Workstation.ascx">
+      <publishTime>12/01/2009 12:36:50</publishTime>
+    </File>
+    <File Include="CreatePoll.aspx">
+      <publishTime>12/22/2009 08:45:16</publishTime>
+    </File>
+    <File Include="CSS/Blog.css">
+      <publishTime>12/12/2009 02:09:40</publishTime>
+    </File>
+    <File Include="CSS/Blogs.css">
+      <publishTime>09/15/2009 15:26:00</publishTime>
+    </File>
+    <File Include="CSS/Club.css">
+      <publishTime>05/31/2010 13:36:00</publishTime>
+    </File>
+    <File Include="CSS/Default2.css">
+      <publishTime>03/02/2010 11:53:30</publishTime>
+    </File>
+    <File Include="CSS/docs.css">
+      <publishTime>11/04/2009 13:26:04</publishTime>
+    </File>
+    <File Include="CSS/EduInfo.css">
+      <publishTime>07/24/2009 13:34:12</publishTime>
+    </File>
+    <File Include="CSS/Email.css">
+      <publishTime>11/15/2009 09:17:48</publishTime>
+    </File>
+    <File Include="CSS/Finduser.css">
+      <publishTime>12/05/2009 08:48:00</publishTime>
+    </File>
+    <File Include="CSS/Global.css">
+      <publishTime>12/22/2009 10:17:08</publishTime>
+    </File>
+    <File Include="CSS/Home.css">
+      <publishTime>12/09/2009 12:02:36</publishTime>
+    </File>
+    <File Include="CSS/jqdialog.css">
+      <publishTime>03/15/2010 10:50:00</publishTime>
+    </File>
+    <File Include="CSS/Layout.css">
+      <publishTime>04/15/2010 11:06:26</publishTime>
+    </File>
+    <File Include="CSS/mytab.css">
+      <publishTime>12/02/2009 14:19:32</publishTime>
+    </File>
+    <File Include="CSS/Profile_Page.css">
+      <publishTime>12/13/2009 10:06:10</publishTime>
+    </File>
+    <File Include="CSS/Registration.css">
+      <publishTime>03/05/2010 11:22:48</publishTime>
+    </File>
+    <File Include="CSS/Request.css">
+      <publishTime>07/24/2009 13:34:12</publishTime>
+    </File>
+    <File Include="CSS/Signin_page.css">
+      <publishTime>11/09/2009 06:51:30</publishTime>
+    </File>
+    <File Include="CSS/Speech.css">
+      <publishTime>01/30/2010 12:50:22</publishTime>
+    </File>
+    <File Include="CSS/ui.resizable.css">
+      <publishTime>06/11/2009 15:20:28</publishTime>
+    </File>
+    <File Include="CSS/ZLayout.css">
+      <publishTime>12/17/2009 08:12:14</publishTime>
+    </File>
+    <File Include="Default.aspx">
+      <publishTime>08/20/2017 16:33:40</publishTime>
+    </File>
+    <File Include="Default3.aspx">
+      <publishTime>03/03/2010 07:49:12</publishTime>
+    </File>
+    <File Include="Email.aspx">
+      <publishTime>11/16/2009 03:40:44</publishTime>
+    </File>
+    <File Include="FileHandler.ashx">
+      <publishTime>11/29/2009 13:09:18</publishTime>
+    </File>
+    <File Include="Finduser.aspx">
+      <publishTime>12/07/2009 11:50:38</publishTime>
+    </File>
+    <File Include="ForgottenPassword.aspx">
+      <publishTime>12/09/2009 13:42:22</publishTime>
+    </File>
+    <File Include="HabibLearning.aspx">
+      <publishTime>03/04/2010 11:44:14</publishTime>
+    </File>
+    <File Include="Home.aspx">
+      <publishTime>11/23/2009 10:20:40</publishTime>
+    </File>
+    <File Include="Home2.aspx">
+      <publishTime>03/10/2010 14:37:56</publishTime>
+    </File>
+    <File Include="IframeProfilePhotoChange.aspx">
+      <publishTime>04/12/2010 15:56:22</publishTime>
+    </File>
+    <File Include="IframeUploadWallPhoto.aspx">
+      <publishTime>05/01/2010 13:24:10</publishTime>
+    </File>
+    <File Include="JS/ajaxupload.js">
+      <publishTime>11/30/2009 12:54:22</publishTime>
+    </File>
+    <File Include="JS/ChatRoom.js">
+      <publishTime>12/27/2009 10:44:00</publishTime>
+    </File>
+    <File Include="JS/Club.js">
+      <publishTime>07/19/2010 12:31:08</publishTime>
+    </File>
+    <File Include="JS/ClubAdmin.js">
+      <publishTime>03/22/2010 09:42:00</publishTime>
+    </File>
+    <File Include="JS/Comment.js">
+      <publishTime>12/12/2009 12:28:02</publishTime>
+    </File>
+    <File Include="JS/Default2.js">
+      <publishTime>06/05/2010 15:01:02</publishTime>
+    </File>
+    <File Include="JS/emoticons.js">
+      <publishTime>11/15/2009 23:46:22</publishTime>
+    </File>
+    <File Include="JS/FeedRelated.js">
+      <publishTime>05/02/2010 11:30:26</publishTime>
+    </File>
+    <File Include="JS/FindFriend.js">
+      <publishTime>04/15/2010 05:09:10</publishTime>
+    </File>
+    <File Include="JS/friendList.js">
+      <publishTime>03/23/2010 11:17:16</publishTime>
+    </File>
+    <File Include="JS/ftb.js">
+      <publishTime>11/04/2009 13:25:02</publishTime>
+    </File>
+    <File Include="JS/home.js">
+      <publishTime>03/10/2010 14:13:28</publishTime>
+    </File>
+    <File Include="JS/jqdialog.min.js">
+      <publishTime>06/30/2010 05:27:44</publishTime>
+    </File>
+    <File Include="JS/jquery-1.3.2.min.js">
+      <publishTime>05/21/2010 02:39:52</publishTime>
+    </File>
+    <File Include="JS/jquery.colorbox-min.js">
+      <publishTime>11/07/2009 08:33:22</publishTime>
+    </File>
+    <File Include="JS/jquery.emoticon.js">
+      <publishTime>02/02/2010 12:05:30</publishTime>
+    </File>
+    <File Include="JS/jquery.pstrength-min.1.2.js">
+      <publishTime>11/11/2007 23:15:32</publishTime>
+    </File>
+    <File Include="JS/jquery.timeago.js">
+      <publishTime>12/15/2009 10:21:32</publishTime>
+    </File>
+    <File Include="JS/JqueryDraw.js">
+      <publishTime>01/16/2010 00:03:34</publishTime>
+    </File>
+    <File Include="JS/JqueryTimer.js">
+      <publishTime>12/22/2009 09:03:06</publishTime>
+    </File>
+    <File Include="JS/main.js">
+      <publishTime>12/03/2009 01:10:18</publishTime>
+    </File>
+    <File Include="JS/mytab.js">
+      <publishTime>12/02/2009 13:58:00</publishTime>
+    </File>
+    <File Include="JS/OnlineUser.js">
+      <publishTime>05/30/2010 12:25:26</publishTime>
+    </File>
+    <File Include="JS/phonetic_int.js">
+      <publishTime>08/28/2009 14:54:38</publishTime>
+    </File>
+    <File Include="JS/PostWallPhoto.js">
+      <publishTime>04/12/2010 15:47:16</publishTime>
+    </File>
+    <File Include="JS/Profile.js">
+      <publishTime>12/12/2009 11:51:46</publishTime>
+    </File>
+    <File Include="JS/ProfilePhotoChange.js">
+      <publishTime>04/09/2010 13:20:16</publishTime>
+    </File>
+    <File Include="JS/prototype.js">
+      <publishTime>11/04/2009 13:25:02</publishTime>
+    </File>
+    <File Include="JS/Registration.js">
+      <publishTime>04/24/2010 08:42:42</publishTime>
+    </File>
+    <File Include="JS/Request.js">
+      <publishTime>06/05/2010 11:56:44</publishTime>
+    </File>
+    <File Include="JS/speech.js">
+      <publishTime>05/30/2010 12:26:14</publishTime>
+    </File>
+    <File Include="JS/State.js">
+      <publishTime>12/18/2009 11:52:20</publishTime>
+    </File>
+    <File Include="JS/themes/base/images/ui-bg_flat_0_aaaaaa_40x100.png">
+      <publishTime>06/11/2009 15:20:28</publishTime>
+    </File>
+    <File Include="JS/themes/base/images/ui-bg_flat_75_ffffff_40x100.png">
+      <publishTime>06/11/2009 15:20:28</publishTime>
+    </File>
+    <File Include="JS/themes/base/images/ui-bg_glass_55_fbf9ee_1x400.png">
+      <publishTime>06/11/2009 15:20:28</publishTime>
+    </File>
+    <File Include="JS/themes/base/images/ui-bg_glass_65_ffffff_1x400.png">
+      <publishTime>06/11/2009 15:20:28</publishTime>
+    </File>
+    <File Include="JS/themes/base/images/ui-bg_glass_75_dadada_1x400.png">
+      <publishTime>06/11/2009 15:20:28</publishTime>
+    </File>
+    <File Include="JS/themes/base/images/ui-bg_glass_75_e6e6e6_1x400.png">
+      <publishTime>06/11/2009 15:20:28</publishTime>
+    </File>
+    <File Include="JS/themes/base/images/ui-bg_glass_95_fef1ec_1x400.png">
+      <publishTime>06/11/2009 15:20:28</publishTime>
+    </File>
+    <File Include="JS/themes/base/images/ui-bg_highlight-soft_75_cccccc_1x100.png">
+      <publishTime>06/11/2009 15:20:28</publishTime>
+    </File>
+    <File Include="JS/themes/base/images/ui-icons_222222_256x240.png">
+      <publishTime>06/11/2009 15:20:28</publishTime>
+    </File>
+    <File Include="JS/themes/base/images/ui-icons_2e83ff_256x240.png">
+      <publishTime>06/11/2009 15:20:28</publishTime>
+    </File>
+    <File Include="JS/themes/base/images/ui-icons_454545_256x240.png">
+      <publishTime>06/11/2009 15:20:28</publishTime>
+    </File>
+    <File Include="JS/themes/base/images/ui-icons_888888_256x240.png">
+      <publishTime>06/11/2009 15:20:28</publishTime>
+    </File>
+    <File Include="JS/themes/base/images/ui-icons_cd0a0a_256x240.png">
+      <publishTime>06/11/2009 15:20:28</publishTime>
+    </File>
+    <File Include="JS/themes/base/ui.accordion.css">
+      <publishTime>06/11/2009 15:20:28</publishTime>
+    </File>
+    <File Include="JS/themes/base/ui.all.css">
+      <publishTime>06/11/2009 15:20:28</publishTime>
+    </File>
+    <File Include="JS/themes/base/ui.base.css">
+      <publishTime>02/17/2010 02:48:50</publishTime>
+    </File>
+    <File Include="JS/themes/base/ui.core.css">
+      <publishTime>06/11/2009 15:20:28</publishTime>
+    </File>
+    <File Include="JS/themes/base/ui.datepicker.css">
+      <publishTime>06/11/2009 15:20:28</publishTime>
+    </File>
+    <File Include="JS/themes/base/ui.dialog.css">
+      <publishTime>06/11/2009 15:20:28</publishTime>
+    </File>
+    <File Include="JS/themes/base/ui.progressbar.css">
+      <publishTime>06/11/2009 15:20:28</publishTime>
+    </File>
+    <File Include="JS/themes/base/ui.resizable.css">
+      <publishTime>06/11/2009 15:20:28</publishTime>
+    </File>
+    <File Include="JS/themes/base/ui.slider.css">
+      <publishTime>06/11/2009 15:20:28</publishTime>
+    </File>
+    <File Include="JS/themes/base/ui.tabs.css">
+      <publishTime>06/11/2009 15:20:28</publishTime>
+    </File>
+    <File Include="JS/themes/base/ui.theme.css">
+      <publishTime>06/11/2009 15:20:28</publishTime>
+    </File>
+    <File Include="JS/themes/dark/next.gif">
+      <publishTime>10/04/2009 00:41:54</publishTime>
+    </File>
+    <File Include="JS/themes/dark/next.png">
+      <publishTime>10/04/2009 00:41:54</publishTime>
+    </File>
+    <File Include="JS/themes/dark/panel-nav-next.gif">
+      <publishTime>10/04/2009 00:41:54</publishTime>
+    </File>
+    <File Include="JS/themes/dark/panel-nav-next.png">
+      <publishTime>10/04/2009 00:41:54</publishTime>
+    </File>
+    <File Include="JS/themes/dark/panel-nav-prev.gif">
+      <publishTime>10/04/2009 00:41:54</publishTime>
+    </File>
+    <File Include="JS/themes/dark/panel-nav-prev.png">
+      <publishTime>10/04/2009 00:41:54</publishTime>
+    </File>
+    <File Include="JS/themes/dark/pointer-down.png">
+      <publishTime>10/04/2009 00:41:54</publishTime>
+    </File>
+    <File Include="JS/themes/dark/pointer.png">
+      <publishTime>10/04/2009 00:41:54</publishTime>
+    </File>
+    <File Include="JS/themes/dark/prev.gif">
+      <publishTime>10/04/2009 00:41:54</publishTime>
+    </File>
+    <File Include="JS/themes/dark/prev.png">
+      <publishTime>10/04/2009 00:41:54</publishTime>
+    </File>
+    <File Include="JS/themes/light/next.gif">
+      <publishTime>10/04/2009 00:41:54</publishTime>
+    </File>
+    <File Include="JS/themes/light/next.png">
+      <publishTime>10/04/2009 00:41:54</publishTime>
+    </File>
+    <File Include="JS/themes/light/panel-nav-next.gif">
+      <publishTime>10/04/2009 00:41:54</publishTime>
+    </File>
+    <File Include="JS/themes/light/panel-nav-next.png">
+      <publishTime>10/04/2009 00:41:54</publishTime>
+    </File>
+    <File Include="JS/themes/light/panel-nav-prev.gif">
+      <publishTime>10/04/2009 00:41:54</publishTime>
+    </File>
+    <File Include="JS/themes/light/panel-nav-prev.png">
+      <publishTime>10/04/2009 00:41:54</publishTime>
+    </File>
+    <File Include="JS/themes/light/pointer-down.png">
+      <publishTime>10/04/2009 00:41:54</publishTime>
+    </File>
+    <File Include="JS/themes/light/pointer.png">
+      <publishTime>10/04/2009 00:41:54</publishTime>
+    </File>
+    <File Include="JS/themes/light/prev.gif">
+      <publishTime>10/04/2009 00:41:54</publishTime>
+    </File>
+    <File Include="JS/themes/light/prev.png">
+      <publishTime>10/04/2009 00:41:54</publishTime>
+    </File>
+    <File Include="JS/themes/ui-lightness/images/ui-bg_diagonals-thick_18_b81900_40x40.png">
+      <publishTime>02/15/2010 13:01:44</publishTime>
+    </File>
+    <File Include="JS/themes/ui-lightness/images/ui-bg_diagonals-thick_20_666666_40x40.png">
+      <publishTime>02/15/2010 13:01:46</publishTime>
+    </File>
+    <File Include="JS/themes/ui-lightness/images/ui-bg_flat_10_000000_40x100.png">
+      <publishTime>02/15/2010 13:01:46</publishTime>
+    </File>
+    <File Include="JS/themes/ui-lightness/images/ui-bg_glass_100_f6f6f6_1x400.png">
+      <publishTime>02/15/2010 13:01:44</publishTime>
+    </File>
+    <File Include="JS/themes/ui-lightness/images/ui-bg_glass_100_fdf5ce_1x400.png">
+      <publishTime>02/15/2010 13:01:44</publishTime>
+    </File>
+    <File Include="JS/themes/ui-lightness/images/ui-bg_glass_65_ffffff_1x400.png">
+      <publishTime>02/15/2010 13:01:44</publishTime>
+    </File>
+    <File Include="JS/themes/ui-lightness/images/ui-bg_gloss-wave_35_f6a828_500x100.png">
+      <publishTime>02/15/2010 13:01:44</publishTime>
+    </File>
+    <File Include="JS/themes/ui-lightness/images/ui-bg_highlight-soft_100_eeeeee_1x100.png">
+      <publishTime>02/15/2010 13:01:32</publishTime>
+    </File>
+    <File Include="JS/themes/ui-lightness/images/ui-bg_highlight-soft_75_ffe45c_1x100.png">
+      <publishTime>02/15/2010 13:01:44</publishTime>
+    </File>
+    <File Include="JS/themes/ui-lightness/images/ui-icons_222222_256x240.png">
+      <publishTime>02/15/2010 13:01:44</publishTime>
+    </File>
+    <File Include="JS/themes/ui-lightness/images/ui-icons_228ef1_256x240.png">
+      <publishTime>02/15/2010 13:01:46</publishTime>
+    </File>
+    <File Include="JS/themes/ui-lightness/images/ui-icons_ef8c08_256x240.png">
+      <publishTime>02/15/2010 13:01:46</publishTime>
+    </File>
+    <File Include="JS/themes/ui-lightness/images/ui-icons_ffd27a_256x240.png">
+      <publishTime>02/15/2010 13:01:46</publishTime>
+    </File>
+    <File Include="JS/themes/ui-lightness/images/ui-icons_ffffff_256x240.png">
+      <publishTime>02/15/2010 13:01:46</publishTime>
+    </File>
+    <File Include="JS/themes/ui-lightness/jquery-ui-1.7.2.custom.css">
+      <publishTime>02/15/2010 13:01:10</publishTime>
+    </File>
+    <File Include="JS/themes/ui-lightness/ui.accordion.css">
+      <publishTime>02/15/2010 13:01:46</publishTime>
+    </File>
+    <File Include="JS/themes/ui-lightness/ui.all.css">
+      <publishTime>02/15/2010 13:01:46</publishTime>
+    </File>
+    <File Include="JS/themes/ui-lightness/ui.base.css">
+      <publishTime>02/15/2010 13:01:22</publishTime>
+    </File>
+    <File Include="JS/themes/ui-lightness/ui.core.css">
+      <publishTime>02/15/2010 13:01:46</publishTime>
+    </File>
+    <File Include="JS/themes/ui-lightness/ui.datepicker.css">
+      <publishTime>02/15/2010 13:01:46</publishTime>
+    </File>
+    <File Include="JS/themes/ui-lightness/ui.dialog.css">
+      <publishTime>02/15/2010 13:01:46</publishTime>
+    </File>
+    <File Include="JS/themes/ui-lightness/ui.progressbar.css">
+      <publishTime>02/15/2010 13:01:46</publishTime>
+    </File>
+    <File Include="JS/themes/ui-lightness/ui.resizable.css">
+      <publishTime>02/15/2010 13:01:46</publishTime>
+    </File>
+    <File Include="JS/themes/ui-lightness/ui.slider.css">
+      <publishTime>02/15/2010 13:01:46</publishTime>
+    </File>
+    <File Include="JS/themes/ui-lightness/ui.tabs.css">
+      <publishTime>02/15/2010 13:01:46</publishTime>
+    </File>
+    <File Include="JS/themes/ui-lightness/ui.theme.css">
+      <publishTime>02/15/2010 13:01:46</publishTime>
+    </File>
+    <File Include="JS/ui.core.js">
+      <publishTime>10/04/2009 00:41:54</publishTime>
+    </File>
+    <File Include="JS/ui.draggable.js">
+      <publishTime>10/04/2009 00:41:56</publishTime>
+    </File>
+    <File Include="JS/ui.droppable.js">
+      <publishTime>10/04/2009 00:41:56</publishTime>
+    </File>
+    <File Include="JS/ui.resizable.js">
+      <publishTime>06/11/2009 15:20:44</publishTime>
+    </File>
+    <File Include="JS/WorldHomeMange.js">
+      <publishTime>12/24/2009 10:31:48</publishTime>
+    </File>
+    <File Include="LayoutStyle.aspx">
+      <publishTime>02/23/2010 09:44:46</publishTime>
+    </File>
+    <File Include="MediPanel.aspx">
+      <publishTime>12/11/2009 05:03:18</publishTime>
+    </File>
+    <File Include="MediPanelDetails.aspx">
+      <publishTime>12/09/2009 13:25:22</publishTime>
+    </File>
+    <File Include="MediPanelEdit.aspx">
+      <publishTime>12/09/2009 13:09:04</publishTime>
+    </File>
+    <File Include="Pages/FriendshipRequest.aspx">
+      <publishTime>10/26/2009 01:40:04</publishTime>
+    </File>
+    <File Include="PhotoAlbum.aspx">
+      <publishTime>12/07/2009 11:26:44</publishTime>
+    </File>
+    <File Include="PlaceBackground/Original/1.jpg">
+      <publishTime>12/24/2009 21:44:36</publishTime>
+    </File>
+    <File Include="PlaceBackground/Original/11.jpg">
+      <publishTime>12/24/2009 21:42:36</publishTime>
+    </File>
+    <File Include="PlaceBackground/Original/5.jpg">
+      <publishTime>12/24/2009 21:45:14</publishTime>
+    </File>
+    <File Include="PlaceBackground/Original/6.JPG">
+      <publishTime>12/24/2009 02:32:04</publishTime>
+    </File>
+    <File Include="PlaceBackground/Original/7.jpg">
+      <publishTime>12/24/2009 02:34:02</publishTime>
+    </File>
+    <File Include="PlaceBackground/Original/8.jpg">
+      <publishTime>12/24/2009 10:24:02</publishTime>
+    </File>
+    <File Include="PlaceBackground/Original/9.bmp">
+      <publishTime>12/24/2009 10:14:48</publishTime>
+    </File>
+    <File Include="PlaceBackground/Resized/1.jpg">
+      <publishTime>12/25/2009 06:30:34</publishTime>
+    </File>
+    <File Include="PlaceBackground/Resized/11.jpg">
+      <publishTime>12/24/2009 21:42:36</publishTime>
+    </File>
+    <File Include="PlaceBackground/Resized/5.jpg">
+      <publishTime>12/25/2009 06:35:28</publishTime>
+    </File>
+    <File Include="PlaceBackground/Resized/6.jpg">
+      <publishTime>12/24/2009 02:32:56</publishTime>
+    </File>
+    <File Include="PlaceBackground/Resized/7.jpg">
+      <publishTime>12/24/2009 02:34:08</publishTime>
+    </File>
+    <File Include="PlaceBackground/Resized/8.jpg">
+      <publishTime>12/24/2009 10:46:16</publishTime>
+    </File>
+    <File Include="PlaceBackground/Resized/9.jpg">
+      <publishTime>12/24/2009 10:14:48</publishTime>
+    </File>
+    <File Include="PlaceBackground/thumbs/1.jpg">
+      <publishTime>12/24/2009 21:44:36</publishTime>
+    </File>
+    <File Include="PlaceBackground/thumbs/11.jpg">
+      <publishTime>12/24/2009 21:42:36</publishTime>
+    </File>
+    <File Include="PlaceBackground/thumbs/5.jpg">
+      <publishTime>12/24/2009 21:45:14</publishTime>
+    </File>
+    <File Include="PlaceBackground/thumbs/6.jpg">
+      <publishTime>12/24/2009 02:32:06</publishTime>
+    </File>
+    <File Include="PlaceBackground/thumbs/7.jpg">
+      <publishTime>12/24/2009 02:34:02</publishTime>
+    </File>
+    <File Include="PlaceBackground/thumbs/8.jpg">
+      <publishTime>12/24/2009 10:24:02</publishTime>
+    </File>
+    <File Include="PlaceBackground/thumbs/9.jpg">
+      <publishTime>12/24/2009 10:14:48</publishTime>
+    </File>
+    <File Include="Profile.aspx">
+      <publishTime>12/26/2009 12:19:08</publishTime>
+    </File>
+    <File Include="Registration.aspx">
+      <publishTime>08/20/2017 16:33:27</publishTime>
+    </File>
+    <File Include="Request.aspx">
+      <publishTime>10/26/2009 06:40:04</publishTime>
+    </File>
+    <File Include="RoomList.aspx">
+      <publishTime>09/08/2009 11:12:18</publishTime>
+    </File>
+    <File Include="sample.css">
+      <publishTime>11/04/2009 13:42:06</publishTime>
+    </File>
+    <File Include="SendEmail.aspx">
+      <publishTime>12/04/2009 12:52:06</publishTime>
+    </File>
+    <File Include="SendFriendRequest.aspx">
+      <publishTime>12/12/2009 06:14:38</publishTime>
+    </File>
+    <File Include="Service/PageMethod.js">
+      <publishTime>11/21/2009 13:26:48</publishTime>
+    </File>
+    <File Include="Service/PageMethodService.aspx">
+      <publishTime>11/20/2009 08:36:42</publishTime>
+    </File>
+    <File Include="ShowBlog.aspx">
+      <publishTime>12/09/2009 12:15:36</publishTime>
+    </File>
+    <File Include="Signup.aspx">
+      <publishTime>12/09/2009 13:46:26</publishTime>
+    </File>
+    <File Include="speech.aspx">
+      <publishTime>02/01/2010 11:52:20</publishTime>
+    </File>
+    <File Include="StateUpoad.ashx">
+      <publishTime>12/17/2009 11:18:06</publishTime>
+    </File>
+    <File Include="test2.aspx">
+      <publishTime>10/30/2009 13:52:56</publishTime>
+    </File>
+    <File Include="test3.aspx">
+      <publishTime>11/17/2009 10:32:12</publishTime>
+    </File>
+    <File Include="Tester.aspx">
+      <publishTime>01/18/2010 10:28:56</publishTime>
+    </File>
+    <File Include="testpage.aspx">
+      <publishTime>11/06/2009 03:54:26</publishTime>
+    </File>
+    <File Include="TreatmentPanel.aspx">
+      <publishTime>12/10/2009 11:15:16</publishTime>
+    </File>
+    <File Include="Web.config">
+      <publishTime>03/03/2010 12:04:22</publishTime>
+    </File>
+    <File Include="World.aspx">
+      <publishTime>12/10/2009 12:22:54</publishTime>
+    </File>
+    <File Include="worldHomeManage.aspx">
+      <publishTime>12/27/2009 10:41:56</publishTime>
+    </File>
+    <File Include="WorldPlace.aspx">
+      <publishTime>12/24/2009 02:30:06</publishTime>
+    </File>
+    <File Include="youtube.aspx">
+      <publishTime>05/31/2010 13:00:24</publishTime>
+    </File>
+  </ItemGroup>
+</Project>

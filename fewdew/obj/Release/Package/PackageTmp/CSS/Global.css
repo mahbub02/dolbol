@@ -1,0 +1,107 @@
+﻿*{ margin:0px; padding:0px; font-family:Tahoma }
+img{ vertical-align:top; margin:2px; padding:3px; border:1px solid #CCC; background-color:Transparent;}
+img:hover{  } /*background-color:#2F9A8F;*/
+a{ color:#4FA3B9;   font-size:12px;
+    font-weight:normal; text-decoration:none; text-align:right }
+  
+a:hover{color:#329993  }
+table{ float:left; vertical-align:top;display:inline }
+td{ vertical-align:top}
+td img{ vertical-align:top}
+td a{ vertical-align:top}
+img.thumb{ width:40px; }
+ul{	text-align:left;list-style:none;}
+ul li{	padding-top:4px;}
+table,
+table tr,
+table tr td,
+table tr,td{ border:none; border-color:White;}
+
+
+input.single-text{border:1px solid #007996; width:150px; height:20px;background-color:white; }
+input
+{
+border:1px solid #CCC;
+background-color:#9AD8E8;
+height:20px;
+font-weight:bold;
+color:black;
+text-align:left;
+font-family:Verdana;
+vertical-align:top;
+font-size:10px; 
+}
+input:hover{ border-color:#007996; 	}
+body
+{
+	font-family:Tahoma;
+	font-size:13px;
+	color:black;
+	width:980px;
+	text-align:center; margin:0 auto; 
+}
+div{ word-wrap:break-word;overflow:visible}
+
+/*.dvMain{ width:1250px;  float:left } */
+
+div.horizon-menu *{ float:left;}
+div.horizon-menu a{ float:left;}
+div.horizon-menu{height:70px;margin-bottom:20px; float:left; width:100%; background-image:url(../Images/Site/blacktop1.gif);} /* width:1250px; }*/
+
+div.horizon-menu ul li { display:inline;  margin-left:10px;}
+div.horizon-menu ul li { display:inline;}
+div.horizon-menu ul li a { color:black;width:70px; max-height:70px;border-bottom:3px solid #FFFFFF;  height:70px; display:inline-block;  font-weight:bold;}
+div.horizon-menu ul li a span{ font-weight:normal; color:#4FA3B9; font-size:11px; width:100%; text-align:center }
+
+div.horizon-menu img{ height:40px; width:40px; border:none; }
+div.horizon-menu ul li a:hover{ border-bottom:3px solid #9AD8E8}
+
+
+div.top{	width:980px;  float:left;}
+div.body{ width:980px; height:99%;  float:left; }
+div.left{width:220px;  float:left;height:900px; }/*height:900px;*/
+div.middle{	width:530px;	 float:left }
+div.right{ width:220px;  float:right;}
+.dvMain{width:980px; float:left;text-align:left; } /*width:1200px; */
+.heading{margin-bottom:0px; background-color:#EDF8FB; color:#2F9A8F;  width:100%;  float:left;	font-size:13px;}
+
+.btnPostMessage{ cursor:pointer}
+
+
+ul li span.AttributeLabel
+{
+	vertical-align:top;
+	width:130px;/*width:130px;*/
+	text-align:right;
+	display:inline-block;
+	color:#4FA3B9;
+	font-size:11px; font-weight:bold;
+	margin-right:10px;
+	
+	
+}
+.checkbox{  width:100%}
+
+div.hidden{ display:none}
+div.delete-parent{ cursor:pointer; float:right; color:White; background-color:#9AD8E8;border:1px solid #CCC; margin-right:40px;}
+div.delete-parent:hover{border:1px solid black }
+
+
+
+/*---------For All Comment Grid*/
+.seeComment{ cursor:pointer; color:#329993; font-size:11px; margin-left:100px}
+table.comment{ margin-left:100px; border-color:#A7DEEA;}
+table.comment tr{ background-color:#ecf0f4; border-bottom-color:#A7DEEA;  }
+table.comment tr td{ border-bottom:2px solid white; }
+table.comment tr td textarea{ height:20px;width:200px;  vertical-align:top;float:left }
+.comment-delete{ color:#D4EAE8;}
+.comment-delete{visibility:hidden; }
+.comment-delete_visible{visibility:visible; color:black}
+
+
+
+ .delete-comment{ display:none; font-size:11px; color:#215B64}
+ .delete-comment:hover{ color:White}
+/*.comment-delete{ color:#D4EAE8;}*/
+/*---------For All Comment grid*/
+

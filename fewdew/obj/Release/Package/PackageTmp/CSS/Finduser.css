@@ -1,0 +1,8 @@
+﻿    div.friend{ float:left; width:400px;   }
+    div.friend *{ float:left}
+    div.friend a{ float:left; vertical-align:top; color:#4FA3B9}
+    div.friend{ border-bottom:1px solid #4FA3B9 }
+    
+    div.search-criteria span{ width:200px; display:inline-block  }
+     div.friend a.active{ color:Black; float:right}
+   

@@ -1,0 +1,20 @@
+D:\Workshop\DolBol project\Phase 4\Phase 4\DolBol\fewdew\bin\BDDoctors.dll
+D:\Workshop\DolBol project\Phase 4\Phase 4\DolBol\fewdew\bin\BDDoctors.pdb
+D:\Workshop\DolBol project\Phase 4\Phase 4\DolBol\fewdew\obj\Release\ResolveAssemblyReference.cache
+D:\Workshop\DolBol project\Phase 4\Phase 4\DolBol\fewdew\obj\Release\BDDoctors.dll.licenses
+D:\Workshop\DolBol project\Phase 4\Phase 4\DolBol\fewdew\obj\Release\BDDoctors.dll
+D:\Workshop\DolBol project\Phase 4\Phase 4\DolBol\fewdew\obj\Release\BDDoctors.pdb
+C:\Users\mahbub\Desktop\dolbol2\DolBol\fewdew\bin\BDDoctors.dll.config
+C:\Users\mahbub\Desktop\dolbol2\DolBol\fewdew\bin\BDDoctors.dll
+C:\Users\mahbub\Desktop\dolbol2\DolBol\fewdew\bin\BDDoctors.pdb
+C:\Users\mahbub\Desktop\dolbol2\DolBol\fewdew\obj\Release\fewdew.csprojResolveAssemblyReference.cache
+C:\Users\mahbub\Desktop\dolbol2\DolBol\fewdew\obj\Release\BDDoctors.dll.licenses
+C:\Users\mahbub\Desktop\dolbol2\DolBol\fewdew\obj\Release\BDDoctors.dll
+C:\Users\mahbub\Desktop\dolbol2\DolBol\fewdew\obj\Release\BDDoctors.pdb
+C:\Users\mahbub\Desktop\dolbol2\git fol2\dolbol\fewdew\bin\BDDoctors.dll.config
+C:\Users\mahbub\Desktop\dolbol2\git fol2\dolbol\fewdew\bin\BDDoctors.dll
+C:\Users\mahbub\Desktop\dolbol2\git fol2\dolbol\fewdew\bin\BDDoctors.pdb
+C:\Users\mahbub\Desktop\dolbol2\git fol2\dolbol\fewdew\obj\Release\fewdew.csprojResolveAssemblyReference.cache
+C:\Users\mahbub\Desktop\dolbol2\git fol2\dolbol\fewdew\obj\Release\BDDoctors.dll.licenses
+C:\Users\mahbub\Desktop\dolbol2\git fol2\dolbol\fewdew\obj\Release\BDDoctors.dll
+C:\Users\mahbub\Desktop\dolbol2\git fol2\dolbol\fewdew\obj\Release\BDDoctors.pdb

@@ -1,0 +1,6 @@
+﻿    div.friend{ width:100%; border-bottom:1px solid #CCC;}
+    div.friend a{ float:left; vertical-align:top;}
+    div.friend .add-button{float:right}
+    div.search-criteria span{ width:200px; display:inline-block  }
+     div.friend a.active{ color:Black; float:right}
+   

@@ -1,0 +1,82 @@
+﻿
+
+
+html, body{
+padding: 0;
+margin: 0;
+background-color:#DDE3B7;
+
+}
+/*  Fixed Footer start --->  
+
+html>body {
+
+}
+
+#footer {
+position:absolute;
+bottom:0;
+width:100%;
+height:35px;
+border-top:1px solid #CCC;
+
+}
+.guter
+{
+position:absolute;
+bottom:0;
+width:100%;
+height:35px;
+}
+html>body #footer{position:fixed}
+html>body .guter{position:fixed}
+
+#footer-inner {
+height: 35px !important;
+border-top:1px solid #CCC;
+background-image:url(../images/site/greentop1.gif);
+background-repeat:repeat-x;
+background-color:#B0C62A;
+}
+
+*/
+
+
+
+/* All through the site start-------> */
+#footer-inner {background-color:#B0C62A; width:100%; z-index:1001; height:30px;}
+
+*{ color:Black; margin:0px; padding:0px; border:none; text-decoration:none; font-family:Tahoma; font-size:12px}
+a{ text-decoration:none; color:Black;}
+
+
+div#header-area{ width:100%; height:25px;background-image:url(../images/site/greentop1.gif); background-repeat:repeat-x;background-color:#B0C62A;}
+div#header-area ul {  width:900px  }
+div#header-area li { list-style:none; display:inline  }
+
+div#header-area ul li{ background-image:url(../images/site/button.gif); cursor:pointer; width:123px; height:25px; display:inline-block; text-align:center; float:left; margin-left:20px  }
+div#header-area ul li:hover{ background-image:url(../images/site/buttonhover.gif);}
+div#header-area ul li span { line-height:25px; font-weight:bold; }
+
+
+div#content-area{width:980px; margin:0 auto; text-align:center; border:1px solid #EFF4CC;   }/* use it to place the content area at middle point */
+div#content-area * { float:left;text-align:left; }
+div#content-area li { }
+
+
+div#footer-inner span#copy-right{font-size:9px;  float:right; z-index:1000 }
+
+/* <-------All through the site end */
+
+input.small-button{background-image:url(../images/site/buttonsmall.gif);cursor:pointer; line-height:25px;  width:70px; height:25px; font-weight:bold;  padding-left:10px  }/* padding-left shouldnt be there */
+input.small-button  { float:none;}
+input.small-button:hover{background-image:url(../images/site/buttonsmallhover.gif);}
+
+input.text-box{ height:20px; width:130px; background-color:#DDE3B7; border:1px solid #B0C62A}
+input.text-box:hover{ border:1px solid #072400;}
+
+input.password-box{ height:20px; width:130px;background-color:#DDE3B7;border:1px solid #B0C62A}
+input.password-box:hover{ border:1px solid #072400;}
+select{background-color:#DDE3B7;border:1px solid #B0C62A}
+
+

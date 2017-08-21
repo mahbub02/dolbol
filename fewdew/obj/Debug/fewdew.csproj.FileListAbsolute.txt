@@ -1,0 +1,50 @@
+D:\Workshop\FewDew\fewdew\FewDew\fewdew\bin\BDDoctors.dll
+D:\Workshop\FewDew\fewdew\FewDew\fewdew\bin\BDDoctors.pdb
+D:\Workshop\FewDew\fewdew\FewDew\fewdew\obj\Debug\ResolveAssemblyReference.cache
+D:\Workshop\FewDew\fewdew\FewDew\fewdew\obj\Debug\BDDoctors.dll.licenses
+D:\Workshop\FewDew\fewdew\FewDew\fewdew\obj\Debug\BDDoctors.dll
+D:\Workshop\FewDew\fewdew\FewDew\fewdew\obj\Debug\BDDoctors.pdb
+D:\Workshop\FewDew\fewdew\fewdew2\FewDew\fewdew\bin\BDDoctors.dll
+D:\Workshop\FewDew\fewdew\fewdew2\FewDew\fewdew\bin\BDDoctors.pdb
+D:\Workshop\FewDew\fewdew\fewdew2\FewDew\fewdew\obj\Debug\ResolveAssemblyReference.cache
+D:\Workshop\FewDew\fewdew\fewdew2\FewDew\fewdew\obj\Debug\BDDoctors.dll.licenses
+D:\Workshop\FewDew\fewdew\fewdew2\FewDew\fewdew\obj\Debug\BDDoctors.dll
+D:\Workshop\FewDew\fewdew\fewdew2\FewDew\fewdew\obj\Debug\BDDoctors.pdb
+D:\Workshop\FewDew\fewdew\fewdew2\New Folder\fewdew\bin\BDDoctors.dll
+D:\Workshop\FewDew\fewdew\fewdew2\New Folder\fewdew\bin\BDDoctors.pdb
+D:\Workshop\FewDew\fewdew\fewdew2\New Folder\fewdew\obj\Debug\ResolveAssemblyReference.cache
+D:\Workshop\FewDew\fewdew\fewdew2\New Folder\fewdew\obj\Debug\BDDoctors.dll.licenses
+D:\Workshop\FewDew\fewdew\fewdew2\New Folder\fewdew\obj\Debug\BDDoctors.dll
+D:\Workshop\FewDew\fewdew\fewdew2\New Folder\fewdew\obj\Debug\BDDoctors.pdb
+D:\Workshop\DolBol project\Phase 2 Only with Avatar\DolBol\fewdew\bin\BDDoctors.dll
+D:\Workshop\DolBol project\Phase 2 Only with Avatar\DolBol\fewdew\bin\BDDoctors.pdb
+D:\Workshop\DolBol project\Phase 2 Only with Avatar\DolBol\fewdew\obj\Debug\ResolveAssemblyReference.cache
+D:\Workshop\DolBol project\Phase 2 Only with Avatar\DolBol\fewdew\obj\Debug\BDDoctors.dll.licenses
+D:\Workshop\DolBol project\Phase 2 Only with Avatar\DolBol\fewdew\obj\Debug\BDDoctors.dll
+D:\Workshop\DolBol project\Phase 2 Only with Avatar\DolBol\fewdew\obj\Debug\BDDoctors.pdb
+D:\Workshop\DolBol project\Phase 4\Phase 2 Only with Avatar\DolBol\fewdew\bin\BDDoctors.dll
+D:\Workshop\DolBol project\Phase 4\Phase 2 Only with Avatar\DolBol\fewdew\bin\BDDoctors.pdb
+D:\Workshop\DolBol project\Phase 4\Phase 2 Only with Avatar\DolBol\fewdew\obj\Debug\ResolveAssemblyReference.cache
+D:\Workshop\DolBol project\Phase 4\Phase 2 Only with Avatar\DolBol\fewdew\obj\Debug\BDDoctors.dll.licenses
+D:\Workshop\DolBol project\Phase 4\Phase 2 Only with Avatar\DolBol\fewdew\obj\Debug\BDDoctors.dll
+D:\Workshop\DolBol project\Phase 4\Phase 2 Only with Avatar\DolBol\fewdew\obj\Debug\BDDoctors.pdb
+D:\Workshop\DolBol project\Phase 4\Phase 4\DolBol\fewdew\bin\BDDoctors.dll
+D:\Workshop\DolBol project\Phase 4\Phase 4\DolBol\fewdew\bin\BDDoctors.pdb
+D:\Workshop\DolBol project\Phase 4\Phase 4\DolBol\fewdew\obj\Debug\ResolveAssemblyReference.cache
+D:\Workshop\DolBol project\Phase 4\Phase 4\DolBol\fewdew\obj\Debug\BDDoctors.dll.licenses
+D:\Workshop\DolBol project\Phase 4\Phase 4\DolBol\fewdew\obj\Debug\BDDoctors.dll
+D:\Workshop\DolBol project\Phase 4\Phase 4\DolBol\fewdew\obj\Debug\BDDoctors.pdb
+C:\Users\mahbub\Desktop\dolbol2\DolBol\fewdew\bin\BDDoctors.dll.config
+C:\Users\mahbub\Desktop\dolbol2\DolBol\fewdew\bin\BDDoctors.dll
+C:\Users\mahbub\Desktop\dolbol2\DolBol\fewdew\bin\BDDoctors.pdb
+C:\Users\mahbub\Desktop\dolbol2\DolBol\fewdew\obj\Debug\fewdew.csprojResolveAssemblyReference.cache
+C:\Users\mahbub\Desktop\dolbol2\DolBol\fewdew\obj\Debug\BDDoctors.dll.licenses
+C:\Users\mahbub\Desktop\dolbol2\DolBol\fewdew\obj\Debug\BDDoctors.dll
+C:\Users\mahbub\Desktop\dolbol2\DolBol\fewdew\obj\Debug\BDDoctors.pdb
+C:\Users\mahbub\Desktop\dolbol2\git fol2\dolbol\fewdew\bin\BDDoctors.dll.config
+C:\Users\mahbub\Desktop\dolbol2\git fol2\dolbol\fewdew\bin\BDDoctors.dll
+C:\Users\mahbub\Desktop\dolbol2\git fol2\dolbol\fewdew\bin\BDDoctors.pdb
+C:\Users\mahbub\Desktop\dolbol2\git fol2\dolbol\fewdew\obj\Debug\fewdew.csprojResolveAssemblyReference.cache
+C:\Users\mahbub\Desktop\dolbol2\git fol2\dolbol\fewdew\obj\Debug\BDDoctors.dll.licenses
+C:\Users\mahbub\Desktop\dolbol2\git fol2\dolbol\fewdew\obj\Debug\BDDoctors.dll
+C:\Users\mahbub\Desktop\dolbol2\git fol2\dolbol\fewdew\obj\Debug\BDDoctors.pdb

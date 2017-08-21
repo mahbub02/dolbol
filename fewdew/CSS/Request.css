@@ -1,0 +1,4 @@
+﻿div.request{ float:left; vertical-align:top ; padding:5px; border-top:1px solid #a0a0a0 }
+div.requester-image{ float:left;}
+div.requester-image img{ border:none; padding:5px; border:1px solid #a0a0a0; margin-right:10px }
+div.request a:hover{border:1px solid #a0a0a0;}

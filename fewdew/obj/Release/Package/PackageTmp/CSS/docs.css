@@ -1,0 +1,54 @@
+﻿body, td
+{
+	font-family:arial;
+	font-size: 12px;
+}
+
+h1 
+{
+	font-family: Arial;
+	font-size: 16px;
+	color: #aaaaff;
+	margin: 5px 0;
+}
+h2
+{
+	font-family: Arial;
+	font-size: 14px;
+	color: #aaffaa;
+	margin: 5px 0;
+}
+
+code 
+{
+	font-family:Lucida Sans Typewriter,Courier,monospace;
+	font-size:10px;
+	font-style:normal;
+	font-variant:normal;
+	font-weight:normal;
+	line-height:normal;
+}
+
+pre code {
+	background:#F5F5F5 none repeat scroll 0%;
+	border:1px solid #DDDDDD;
+	display:block;
+	margin:10px;
+	padding:4px;
+	width: 650px;
+	overflow: auto;
+}
+
+.tag 
+{
+	color: orange;
+}
+.keywords {
+	color:#FF7711;
+}
+.comment {
+	color:#551177;
+}
+.string {
+	color:#339922;
+}

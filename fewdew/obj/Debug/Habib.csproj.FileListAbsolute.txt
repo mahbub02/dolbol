@@ -1,0 +1,16 @@
+D:\Workshop\BdDoctorCheckout\Habib\obj\Debug\ResolveAssemblyReference.cache
+D:\Workshop\BdDoctorCheckout\Habib\bin\BDDoctors.dll
+D:\Workshop\BdDoctorCheckout\Habib\bin\BDDoctors.pdb
+D:\Workshop\BdDoctorCheckout\Habib\obj\Debug\BDDoctors.dll
+D:\Workshop\BdDoctorCheckout\Habib\obj\Debug\BDDoctors.pdb
+D:\Workshop\Habib\Habib\bin\BDDoctors.dll
+D:\Workshop\Habib\Habib\bin\BDDoctors.pdb
+D:\Workshop\Habib\Habib\obj\Debug\ResolveAssemblyReference.cache
+D:\Workshop\Habib\Habib\obj\Debug\BDDoctors.dll
+D:\Workshop\Habib\Habib\obj\Debug\BDDoctors.pdb
+D:\Workshop\HabibDevel\Habib2\Habib\Habib\bin\BDDoctors.dll
+D:\Workshop\HabibDevel\Habib2\Habib\Habib\bin\BDDoctors.pdb
+D:\Workshop\HabibDevel\Habib2\Habib\Habib\obj\Debug\ResolveAssemblyReference.cache
+D:\Workshop\HabibDevel\Habib2\Habib\Habib\obj\Debug\BDDoctors.dll.licenses
+D:\Workshop\HabibDevel\Habib2\Habib\Habib\obj\Debug\BDDoctors.dll
+D:\Workshop\HabibDevel\Habib2\Habib\Habib\obj\Debug\BDDoctors.pdb

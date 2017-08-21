@@ -1,0 +1,6 @@
+D:\Workshop\HabibDevel\Habib2\Habib\Habib\bin\BDDoctors.dll
+D:\Workshop\HabibDevel\Habib2\Habib\Habib\bin\BDDoctors.pdb
+D:\Workshop\HabibDevel\Habib2\Habib\Habib\obj\Release\ResolveAssemblyReference.cache
+D:\Workshop\HabibDevel\Habib2\Habib\Habib\obj\Release\BDDoctors.dll.licenses
+D:\Workshop\HabibDevel\Habib2\Habib\Habib\obj\Release\BDDoctors.dll
+D:\Workshop\HabibDevel\Habib2\Habib\Habib\obj\Release\BDDoctors.pdb

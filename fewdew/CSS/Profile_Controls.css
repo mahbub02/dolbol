@@ -1,0 +1,37 @@
+﻿.dvDegreeHelper
+{
+border:1px solid black;
+position:relative;
+z-index:1; 
+top:-70px;
+left:300px;
+width:150px ;
+height:120px;
+overflow:auto;
+}
+
+.dvProfileContainer
+{
+ border:1px inset black;
+width:400px;
+height:400px;
+text-align:left;
+
+
+}
+.dvCheckListDegree
+{
+	height:40px;
+	width:100px;
+	position:relative;
+	top:-30px;
+	left:270px;	
+	border:1px inset black;
+	overflow:auto;
+}
+img.ProfileImage
+{
+  width:120px;
+  padding:10px;
+  border:1px solid #A0A0A0; 
+}

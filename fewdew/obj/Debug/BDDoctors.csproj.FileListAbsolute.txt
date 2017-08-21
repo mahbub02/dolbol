@@ -1,0 +1,11 @@
+D:\Workshop\BDDoctors\BDDoctors\BDDoctors\bin\BDDoctors.dll
+D:\Workshop\BDDoctors\BDDoctors\BDDoctors\bin\BDDoctors.pdb
+D:\Workshop\BDDoctors\BDDoctors\BDDoctors\obj\Debug\ResolveAssemblyReference.cache
+D:\Workshop\BDDoctors\BDDoctors\BDDoctors\obj\Debug\BDDoctors.dll
+D:\Workshop\BDDoctors\BDDoctors\BDDoctors\obj\Debug\BDDoctors.pdb
+D:\Workshop\BDDoctors\BDDoctors\BDDoctors\bin\AjaxControlToolkit.dll
+D:\Workshop\BdDoctorCheckout\BDDoctors\bin\BDDoctors.dll
+D:\Workshop\BdDoctorCheckout\BDDoctors\bin\BDDoctors.pdb
+D:\Workshop\BdDoctorCheckout\BDDoctors\obj\Debug\ResolveAssemblyReference.cache
+D:\Workshop\BdDoctorCheckout\BDDoctors\obj\Debug\BDDoctors.dll
+D:\Workshop\BdDoctorCheckout\BDDoctors\obj\Debug\BDDoctors.pdb

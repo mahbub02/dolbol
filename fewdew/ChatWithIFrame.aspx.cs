@@ -1,0 +1,30 @@
+﻿using System;
+using System.Collections;
+using System.Configuration;
+using System.Data;
+using System.Linq;
+using System.Web;
+using System.Web.Security;
+using System.Web.UI;
+using System.Web.UI.HtmlControls;
+using System.Web.UI.WebControls;
+using System.Web.UI.WebControls.WebParts;
+using System.Xml.Linq;
+
+namespace BDDoctors
+{
+    public partial class ChatWithIFrame : System.Web.UI.Page
+    {
+        protected void Page_Load(object sender, EventArgs e)
+        {
+            if (Page.IsPostBack == false)
+            {
+              GridViewOnlineUsers.DataSource=  BDDoctors.ChatAndOnlineUser.GetOnlineUser();
+              GridViewOnlineUsers.DataBind();
+
+            }
+        }
+        void session_onEnd()
+        { }
+    }
+}

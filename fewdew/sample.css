@@ -1,0 +1,58 @@
+body 
+{
+	font-size: 0.75em;
+	font-family: Arial, Helvetica;
+	color: #321B00;
+	background-color: #F4EED3;	
+}
+#container 
+{
+	width: 600px;
+	margin: auto;
+	border: solid 1px #968A7C;
+}
+h1
+{
+	margin: 0;
+}
+img 
+{
+	border: 0px;
+}
+
+#pullquote 
+{
+	background-color: #968A7C;	
+	font-size: 12px;
+}
+	#pullquote p
+	{
+		line-height: 120%;
+		padding: 5px;
+	}
+	#pullquote p.att
+	{
+		margin-left: 20px;
+		padding: 0;
+	}
+	
+#maintext 
+{
+	padding: 10px;
+}
+#footer 
+{
+	text-align: center;
+	background-color: #62503C;
+	clear:both;
+}
+	#footer a 
+	{
+		color: #fff;
+	}
+	
+.sampleClass 
+{
+	color: #00ff00;
+	font-size: 200%;
+}

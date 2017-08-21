@@ -1,0 +1,36 @@
+﻿
+div#header-area ul li{ background-image:url(../images/site/buttonhover.gif);opacity: 0.6; cursor:pointer; width:123px; height:25px; display:inline-block;  }
+div#header-area ul li { margin:0 auto; text-align:center; float:left; margin-left:20px }
+div#header-area ul li span { line-height:25px; font-weight:bold; }
+
+
+div#logo-container{background-image:url(../images/site/Dew-drops.png);  margin:0 auto; width:200px; height:182px; display:inline-block}
+
+
+div#left-block{float:left; width:450px; height:400px; }
+div#right-block{float:right;width:450px;height:400px;}
+
+div#panda-image{ background-image:url(../images/site/panda.png); width:179px; height:233px; background-color:Transparent; }
+div#LoginBoxContainer{ width:240px; float:right; overflow:auto;  background-color:Transparent; margin-top:5px;}
+div#LoginBoxHeader{ width:100%; height:30px;text-align:center; color:White;   background-image:url(../images/site/block-header.gif); background-color:Transparent; }
+div#Loginbox{ width:100%; height:200px;overflow:auto;background-color:#B0C62A;}
+
+span#what-is-fewdew{ width:100%; font-weight:bold}
+div#fewdew-description{ width:400px; height:300px; overflow:hidden; display:inline-block; text-align:justify}
+
+div#company-details{ width:300px; position:absolute; display:none; background-color:#B0C62A; padding:10px}
+div.menu-details{ border:1px solid #DDE3B7; border-top:none; display:none}
+
+div#contact-us-details{ width:430px;  position:absolute;background-color:#B0C62A; }
+div#business-inquiries{ width:200px; padding:5px; border-right:1px solid #DDE3B7}
+div#business-inquiries span{ width:100%; font-weight:bold}
+div#media-information{ width:200px; padding:5px;}
+div#media-information span{ width:100%; font-weight:bold}
+
+div#Loginbox ul{ list-style:none;}
+div#Loginbox ul li{ margin-top:5px;}
+div#Loginbox ul li span{ display:inline-block; width:70px; text-align:right;  font-size:12px; font-weight:bold}
+div#Loginbox ul li span#Message{display:inline-block; color:red; width:130px; font-weight:normal; font-size:12px}
+span#sign-up{ font-weight:bold; vertical-align:bottom; width:100%; display:block;  font-size:14px; margin-top:30px; cursor:pointer}
+span#sign-up:hover{ color:#223F00}
+input.required{ border:1px solid red}
